@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.skills-carousel {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #252627;
+  color: #111;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --fullstack-width: 90vw;
+  --fullstack-height: 10vh;
+  /* --marquee-elements: 12; */ /* defined with JavaScript */
+  --fullstack-elements-displayed: 5;
+  --fullstack-element-width: calc(var(--fullstack-width) / var(--fullstack-elements-displayed));
+  --fullstack-animation-duration: calc(var(--fullstack-elements) * 3s);
+}
+
+.fullstack {
+  width: var(--fullstack-width);
+  height: var(--fullstack-height);
+  background-color: #252627;
+  color: #eee;
+  overflow: hidden;
+  position: relative;
+}
+.fullstack:before, .fullstack:after {
+  position: absolute;
+  top: 0;
+  width: 10rem;
+  height: 100%;
+  content: "";
+  z-index: 1;
+}
+.fullstack:before {
+  left: 0;
+  background: linear-gradient(to right, #252627 0%, transparent 100%);
+}
+.fullstack:after {
+  right: 0;
+  background: linear-gradient(to left, #252627 0%, transparent 100%);
+}
+.fullstack-content {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  animation: scrolling var(--fullstack-animation-duration) linear infinite;
+}
+/* .fullstack-content:hover {
+  animation-play-state: paused;
+} */
+@keyframes scrolling {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-1 * var(--fullstack-element-width) * var(--fullstack-elements))); }
+}
+.fullstack-content li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  flex-shrink: 0;
+  width: var(--fullstack-element-width);
+  max-height: 100%;
+  font-size: calc(var(--fullstack-height)*3/4); /* 5rem; */
+  white-space: nowrap;
+}
+
+.fullstack-content li img {
+  width: 100%;
+  /* height: 100%; */
+  border: 2px solid #eee;
+}
+
+@media (max-width: 600px) {
+  html { font-size: 12px; }
+  :root {
+    --fullstack-width: 100vw;
+    --fullstack-height: 16vh;
+    --fullstack-elements-displayed: 3;
+  }
+  .fullstack:before, .fullstack:after { width: 5rem; }
+}
