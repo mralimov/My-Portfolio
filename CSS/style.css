@@ -263,6 +263,77 @@ html {
   position: relative;
   transform: scale(1.1);
   }
+
+  
+.projects-box {
+  width: 100%;
+  height: 96rem;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-rows: repeat(3,25rem);
+  grid-template-columns: repeat(3, 40rem);
+  grid-gap: 1rem;
+  padding: 5rem;
+  }
+  
+  .card-img{
+      width: 100%;
+      height: 100%;
+  }
+  
+  .project-img {
+      width: 100%;
+      height: 100%;
+  }
+  
+  .projects .text {
+      color: yellow;
+      /* opacity: 0; */
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+      position: relative;
+  }
+  .text {
+      left: 0;
+      /* position: absolute; */
+      bottom: 30rem;
+      width: 100%;
+      display: none;
+  }
+  .project-head {
+      font-size: 1.8rem;
+      font-weight: 700;
+      font-family: "Raleway-bold";
+  }
+  
+  .highlight {
+      color: blue;
+  }
+  
+  .btn-learn-more {
+      bottom: 0;
+      left: 0;
+      position: relative;
+      right: 0;
+      border: 2px solid #e31b6d;
+      font-size: 13pt;
+      margin: 0 auto;
+      padding: 7px 0;
+      width: 170px;
+      color: #fff;
+      
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+      z-index: 2;
+      display: none;
+  }
+   
+  .js:hover .btn-learn-more {
+      display: block;
+      background-color: chartreuse;
+      cursor: pointer;
+  }
+  
     /* ///////////END PROJECTS SECTION////////// */
     div[class^='tag-']  {
       clip-path: polygon(75% 0%,100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
