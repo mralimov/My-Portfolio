@@ -68,7 +68,24 @@ html {
     list-style: none;
     margin-left: 3rem;
   }
-  
+  ul li a {
+    display: inline-block;
+    height: 100%;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 2rem;
+  }
+ ul li a:hover {
+  color: white;
+  background-color: #ED5565;
+  transition: 0.2s linear;
+ }
+ 
+  ul {
+    height: 100%;
+    
+  }
   a {
     text-decoration: none;
     font-size: 1.5rem;
