@@ -361,6 +361,7 @@ html {
     width: 20rem;
     display: none;
     left: 8rem;
+    /* transition-delay: 2s; */
 }
   .btn-learn-more {
       position: relative;
@@ -377,30 +378,31 @@ html {
       display: none;
   }
    
+  .project-img:hover {
+    opacity: 0;
+  }
   .filter:hover .btn-learn-more {
       display: block;
       cursor: pointer;
       bottom: 12rem;
-      animation: slideUp 1s 
-
+      animation: slideUp .5s ;
+      color:#fff;
   }
   .filter:hover .img-text {
     display: block;
-    /* opacity: 1; */
-    animation: slideDown 1s     
+    animation: slideDown .5s;
   }
-  .filter:hover {
-    /* transition-delay: background-color 4s;
-    background-color: #fff; */
-    animation: fadeWhite 1s;
-  }
+  /* .filter:hover {
+    opacity: 0;
+    background-color: #252627;
+    background-image: #252627;
+  } */
   @keyframes slideUp {
     0% {
       transform: translateY(4.7rem);
     }
     100% {
-
-      opacity: 1;
+      color: #fff;
       transform: translateY(0);
     }
   }
@@ -409,14 +411,13 @@ html {
       transform: translateY(-7rem);
     }
     100% {
-      opacity: 1;
       transform: translateY(0);
     }
   }
-  @keyframes fadeWhite {
+  /* @keyframes fadeWhite {
      from {background-color: #252627;}
      to {background-color: #fff;}
-  }
+  } */
     /* ///////////END PROJECTS SECTION////////// */
     div[class^='tag-']  {
       clip-path: polygon(75% 0%,100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
