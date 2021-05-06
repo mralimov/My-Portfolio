@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -316,6 +318,11 @@ html {
   padding: 5rem;
   }
   
+  .filter {
+    width: 40rem;
+    height: 25rem;
+    position: relative;
+  }
   .card-img{
       width: 100%;
       height: 100%;
@@ -326,54 +333,90 @@ html {
       height: 100%;
   }
   
-  .projects .text {
-      color: yellow;
+  .text {
+      color: lime;
       /* opacity: 0; */
       text-align: center;
       transition: all 0.3s ease-in-out;
-      position: relative;
-  }
-  .img-text {
+      top: 0;
       left: 0;
-      /* position: absolute; */
-      bottom: 30rem;
-      width: 100%;
-      display: none;
   }
+ 
   .project-head {
-      font-size: 1.8rem;
-      font-weight: 700;
-      font-family: "Raleway-bold";
-  }
+    font-size: 1.8rem;
+    font-weight: 700;
+    font-family: "Raleway-bold";
+    color: lime;
+}
+
+.highlight {
+    color: lime;
+}
   
-  .highlight {
-      color: blue;
-  }
-  
+  .img-text {
+    left: 0;
+    position: relative;
+    bottom: 18rem;
+    border: 1px solid red;
+    width: 20rem;
+    display: none;
+    left: 8rem;
+}
   .btn-learn-more {
-      bottom: 0;
-      left: 0;
       position: relative;
-      right: 0;
+      bottom: 4rem;
       border: 2px solid #e31b6d;
-      font-size: 13pt;
+      font-size: 1.8rem;
       margin: 0 auto;
       padding: 7px 0;
-      width: 170px;
+      width: 17rem;
       color: #fff;
-      
       text-align: center;
       transition: all 0.3s ease-in-out;
       z-index: 2;
       display: none;
   }
    
-  .js:hover .btn-learn-more {
+  .filter:hover .btn-learn-more {
       display: block;
-      background-color: chartreuse;
       cursor: pointer;
+      bottom: 12rem;
+      animation: slideUp 1s 
+
   }
-  
+  .filter:hover .img-text {
+    display: block;
+    /* opacity: 1; */
+    animation: slideDown 1s     
+  }
+  .filter:hover {
+    /* transition-delay: background-color 4s;
+    background-color: #fff; */
+    animation: fadeWhite 1s;
+  }
+  @keyframes slideUp {
+    0% {
+      transform: translateY(4.7rem);
+    }
+    100% {
+
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-7rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeWhite {
+     from {background-color: #252627;}
+     to {background-color: #fff;}
+  }
     /* ///////////END PROJECTS SECTION////////// */
     div[class^='tag-']  {
       clip-path: polygon(75% 0%,100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
@@ -568,7 +611,7 @@ html {
   }
   
   .ul-class li:nth-child(1) a:hover {
-      background-color: #3b5999;
+     background-color: #3b5999;
   }
   
   .ul-class li:nth-child(2) a:hover {
@@ -603,11 +646,6 @@ html {
   }
   /* Download hover effects. ____________________________*/
 
-  *,
-*:after,
-*:before {
-  box-sizing: border-box;
-}
 
 .download-container {
   font-size: 16px;
