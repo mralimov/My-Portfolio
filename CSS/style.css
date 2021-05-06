@@ -12,22 +12,22 @@
 }
 html {
     box-sizing: border-box;
-     /* font-size: 62.5%; default 16px 1rem = 10px  */
+      font-size: 62.5%; /*default 16px 1rem = 10px  */
      /* font-family: 'Signika', sans-serif; */
      /* font-family: 'Josefin Sans', sans-serif; */
     -webkit-text-size-adjust: 100%;
     scroll-behavior: smooth;
 }
   .logo   {
-    height: 60px;
-    width: 60px;
+    height: 6rem;
+    width: 6rem;
     margin: 5px;
     padding: 5px;
     position: absolute;  }
   
   
   .container  {
-    padding: 0 100px 0 100px;
+    padding: 0 10rem 0 10rem;
   }
   
   nav ul,
@@ -46,7 +46,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 2rem 0;
       
   }
   
@@ -66,12 +66,12 @@ html {
   
   li  {
     list-style: none;
-    margin-left: 30px;
+    margin-left: 3rem;
   }
   
   a {
     text-decoration: none;
-    font-size: .9rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     position: relative;
     top: 50%;
@@ -80,16 +80,16 @@ html {
     }
   
     .main-info-section  {
-      height: calc(100vh - 400px);
+      height: calc(100vh - 40rem);
     }
     
     .text {
-      margin-top: 120px;
+      margin-top: 12rem;
     }
   
     .text h1  {
       color: #fff;
-      font-size: 3rem;
+      font-size: 4.8rem;
       cursor: context-menu;
     }
   
@@ -110,24 +110,24 @@ html {
     }
   
     span.m-left {
-      margin-left: -10px;
+      margin-left: -1rem;
     }
   
     .text p {
       letter-spacing: 3px;
-      word-spacing: 10px;
-      font-size: .8rem;
+      word-spacing: 1rem;
+      font-size: 1.3rem;
     }
   
     .text a   {
-      padding: 12px 25px;
+      padding: 1.2rem 2.5rem;
       background-color: none;
       border: 3px solid #ed5565;
       color: #ed5565;
-      font-size: .8rem;
+      font-size: 1.3rem;
       letter-spacing: 2px;
       position: relative;
-      top: 80px;
+      top: 8rem;
       overflow: hidden;
       transition: .5s;
       display: inline-block;
@@ -154,24 +154,24 @@ html {
     }
   
     .profile-image img  {
-      width: 450px;
-      margin-top: 50px;
+      width: 45rem;
+      margin-top: 5rem;
     }
     
     .about  {
       height: 60vh;
-      margin-top: 50px;
+      margin-top: 5rem;
     }
   
     .about h1,
     .work h1  {
-      font-size: 10rem;
+      font-size: 16rem;
       z-index: 0;
       opacity: .1;
     }
   
     .about-me-info  {
-      max-width: 900px;
+      max-width: 90rem;
       background-color: #252627;
       box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
       padding: 50px;
@@ -187,27 +187,27 @@ html {
       transform: scale(1.05);
     }
     .about-me-info p {
-      font-size: 1.3rem;
+      font-size: 2.1rem;
       color: #bebebe;
     }
   
     a.about-me-info p:nth-child(2),
     a.about-me-info p:last-child {
-      margin-top: 30px;
+      margin-top: 3rem;
     }
   
     .about img  {
-      width: 300px;
+      width: 30rem;
       position: relative;
-      top: -300px;
+      top: -30rem;
       left: calc(100%-100px);
       right: calc(100%-100px);
-      transform: translateX(calc(-100% + 100px));
+      transform: translateX(calc(-100% + 10rem));
    }  
     .skills h1,
     .contact h1 {
       text-align: right;
-      font-size: 10rem;
+      font-size: 16rem;
       opacity: .1;
     }
   
@@ -215,18 +215,19 @@ html {
  
 .projects {
   width: 90%;
-  height: 100rem;
-  background-color: #252627;
+  height: 160rem;
+  /* background-color: #252627; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
+  justify-content: center;
+
 }
 
 
 .projects-menu {
   width: 100%;
-  height: 3rem;
+  height: 4.8rem;
   text-align: center;
 
   }
@@ -240,7 +241,7 @@ html {
   
   .btn {
       height: inherit;
-      font-size: 1rem;
+      font-size: 1.6rem;
       font-family: sans-serif;
       font-weight: 550;
       color: white;
@@ -265,8 +266,8 @@ html {
 
   
 .projects-box {
-  width: 100%;
-  height: 96rem;
+  width: 120rem;
+  height: 130rem;
   margin-top: 2rem;
   display: grid;
   grid-template-rows: repeat(3,25rem);
@@ -336,27 +337,27 @@ html {
     /* ///////////END PROJECTS SECTION////////// */
     div[class^='tag-']  {
       clip-path: polygon(75% 0%,100% 50%, 75% 100%, 0% 100%, 0% 50%, 0% 0%);
-      width: 120px;
-      height: 30px;
+      width: 12rem;
+      height: 3rem;
       background-color: #1785a7;
-      margin-right: 30px;
+      margin-right: 3rem;
     }
   
     div[class^='tag-'] p  {
       color: #fff;
       text-align: left;
-      padding-left: 10px;
-      font-size: 1.1rem;
+      padding-left: 1rem;
+      font-size: 1.8rem;
       padding-top: 3px;
     }
   
     .progressbar    {
       position: relative;
-      width: 600px;
-      height: 20px;
+      width: 60rem;
+      height: 2rem;
       border: 2px solid #48cfad;
-      border-radius: 30px;
-      margin-top: 7px;
+      border-radius: 3rem;
+      margin-top: 0.7rem;
     }
   
     .div[class^='bar-']  {
@@ -377,8 +378,8 @@ html {
     .work-category button {
       text-transform: capitalize;
       border: 3px solid #ED5565;
-      padding: 15px 30px;
-      border-radius: 50px;
+      padding: 1.5rem 3rem;
+      border-radius: 5rem;
       color: #ED5565;
       font-size: 1.1rem;
       letter-spacing: 1px;
@@ -389,10 +390,10 @@ html {
     }
   
     div[class^='category-']  {
-      margin-top: 50px;
+      margin-top: 5rem;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minimax(350px, 1fr));
-      grid-gap: 20px;
+      grid-template-columns: repeat(auto-fill, minimax(35rem, 1fr));
+      grid-gap: 2rem;
      
     }
   
@@ -416,7 +417,7 @@ html {
         }
   
     .work a img {
-      width: 350px;
+      width: 35rem;
       justify-self: center;
       
     } 
@@ -430,18 +431,18 @@ html {
     }
   
     .contact  {
-      margin-top: 50px;
+      margin-top: 5rem;
     }
    
   
     form input,
     form textarea {
       display: block;
-      width: 500px;
-      padding: 20px;
+      width: 50rem;
+      padding: 2rem;
       background-color: #252627;
       border: 3px solid #707070;
-      margin: 20px 0;
+      margin: 2rem 0;
       outline: none;
       font-size: 1.2rem;
       color: #fff;
@@ -452,7 +453,7 @@ html {
     }
   
     form input:last-child {
-      width: 150px;
+      width: 15rem;
       background-color: #ED5565;
       border: none;
       cursor: pointer;
@@ -460,14 +461,14 @@ html {
   
       footer hr {
         border: 2px solid #707070;
-        margin-top: 80px;
+        margin-top: 8rem;
       }
   
       footer p  {
         text-align: center;
         color: #707070;
         font-size: 1.2rem;
-        padding: 30px 0;
+        padding: 3rem 0;
       }
   
   
@@ -494,13 +495,13 @@ html {
   
   .ul-class li {
       list-style: none;
-      margin: 10px;
+      margin: 1rem;
   }
   
   .ul-class li .fa {
       color: #000000;
       font-size: 25px;
-      line-height: 50px;
+      line-height: 5rem;
       transition: .5s;
       
   }
@@ -512,8 +513,8 @@ html {
   .ul-class li a {
       position: flex;
       display: block;
-      width: 50px;
-      height: 50px;
+      width: 5rem;
+      height: 5rem;
       border-radius: 50%;
       background-color: lightgray;
       text-align: center;
@@ -557,8 +558,8 @@ html {
    border-radius: 50%;
   }
   .fa-cloud-download{
-    padding: 10px;
-    font-size: 20px;
+    padding: 1rem;
+    font-size: 2rem;
   }
   /* Download hover effects. ____________________________*/
 
@@ -610,10 +611,10 @@ a {
   background-color: #ed5565;
   color: #fff;
   font-size: 1.2rem;
-  border-radius: 1000px;
-  width: 200px;
-  height: 60px;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.3);
+  border-radius: 100rem;
+  width: 20rem;
+  height: 6rem;
+  box-shadow: 0 2px 2rem rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.3);
   text-align: center;
   -webkit-transition: background-color 500ms, -webkit-transform 100ms;
   transition: background-color 500ms, -webkit-transform 100ms;
@@ -624,7 +625,7 @@ a {
   overflow: hidden;
 }
 .Button__text {
-  line-height: 60px;
+  line-height: 6rem;
   top: 0;
 }
 .Button__icon {
@@ -633,23 +634,23 @@ a {
 }
 .Button::before {
   content: attr(data-tooltip);
-  width: 200px;
-  height: 60px;
+  width: 20rem;
+  height: 6rem;
   background-color: none;
   font-size: 14px;
   border-radius: .25em;
-  line-height: 50px;
-  bottom: 90px;
-  left: calc(35% - 70px);
+  line-height: 5rem;
+  bottom: 9rem;
+  left: calc(35% - 7rem);
 }
 .Button::after {
   content: '';
   width: 0;
   height: 0;
-  border: 10px solid transparent;
+  border: 1rem solid transparent;
   border-top-color: #ed5565;
-  left: calc(50% - 10px);
-  bottom: 70px;
+  left: calc(50% - 1rem);
+  bottom: 7rem;
 }
 .Button::before, .Button::after {
   position: absolute;
@@ -672,10 +673,10 @@ a {
   visibility: visible;
 }
 .Button:hover::after {
-  bottom: 60px;
+  bottom: 6rem;
 }
 .Button:hover::before {
-  bottom: 80px;
+  bottom: 8rem;
 }
 .Button:active {
   -webkit-transform: translate(2px, 2px);
