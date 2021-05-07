@@ -1,0 +1,118 @@
+.download-container {
+    font-size: 16px;
+}
+
+.download-hover {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 100%;
+    font-family: "PT Sans", sans-serif;
+    /* background-color: #150811;
+    height: 100vh; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.Button__textWrapper,
+.Button__text,
+.Button__icon {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.Button__text,
+.Button__icon {
+    -webkit-transition: top 500ms;
+    transition: top 500ms;
+}
+
+.Button {
+    display: inline-block;
+    position: relative;
+    background-color: #ed5565;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 100rem;
+    width: 20rem;
+    height: 6rem;
+    box-shadow: 0 2px 2rem rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.3);
+    text-align: center;
+    -webkit-transition: background-color 500ms, -webkit-transform 100ms;
+    transition: background-color 500ms, -webkit-transform 100ms;
+    transition: background-color 500ms, transform 100ms;
+    transition: background-color 500ms, transform 100ms, -webkit-transform 100ms;
+}
+.Button__textWrapper {
+    overflow: hidden;
+}
+.Button__text {
+    line-height: 6rem;
+    top: 0;
+}
+.Button__icon {
+    top: 100%;
+    background: url("https://cl.ly/0X3o100h2H0g/icon-download.svg") no-repeat center center;
+}
+.Button::before {
+    content: attr(data-tooltip);
+    width: 20rem;
+    height: 6rem;
+    background-color: none;
+    font-size: 14px;
+    border-radius: 0.25em;
+    line-height: 5rem;
+    bottom: 9rem;
+    left: calc(35% - 7rem);
+}
+.Button::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 1rem solid transparent;
+    border-top-color: #ed5565;
+    left: calc(50% - 1rem);
+    bottom: 7rem;
+}
+.Button::before,
+.Button::after {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+    visibility: hidden;
+}
+.Button:hover {
+    background-color: #01baef;
+}
+.Button:hover .Button__text {
+    top: -100%;
+}
+.Button:hover .Button__icon {
+    top: 0;
+}
+.Button:hover::before,
+.Button:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+.Button:hover::after {
+    bottom: 6rem;
+}
+.Button:hover::before {
+    bottom: 8rem;
+}
+.Button:active {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+}
