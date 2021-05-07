@@ -1,0 +1,174 @@
+
+.projects {
+    width: 90%;
+    height: 160rem;
+    /* background-color: #252627; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  
+  .projects-menu {
+    width: 100%;
+    height: 4.8rem;
+    text-align: center;
+  
+    }
+    
+    .projects-menu-container {
+        height: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    .btn {
+        height: inherit;
+        font-size: 1.6rem;
+        font-family: sans-serif;
+        font-weight: 550;
+        color: white;
+        background-color: #252627;
+        border: none;
+        letter-spacing: 1px;
+        cursor: pointer;
+        text-decoration: none;
+        padding: 1.25rem;
+        border-radius: 1.25rem;
+    }
+    
+    .btn-active,
+    .btn:hover {
+    border: 2px solid #ED5565 transparent;
+    color: white;
+    background-color: #ED5565;
+    transition: 0.2s linear;
+    position: relative;
+    transform: scale(1.1);
+    }
+  
+    
+  .projects-box {
+    width: 120rem;
+    height: 130rem;
+    margin-top: 2rem;
+    display: grid;
+    grid-template-rows: repeat(3,25rem);
+    grid-template-columns: repeat(3, 40rem);
+    grid-gap: 1rem;
+    padding: 5rem;
+    }
+    
+    .filter {
+      width: 40rem;
+      height: 25rem;
+      position: relative;
+    }
+    .card-img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .project-img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .text p:hover {
+      color: #ed5565;
+    } 
+    .fas:hover, .fab:hover  {
+     color: #ed5565;
+     transform: scale(1.8);
+   }
+   
+    .project-head {
+      font-size: 2.6rem;
+      font-weight: 700;
+      font-family: "Raleway-bold";
+      color: #fff;
+      letter-spacing: 2px;
+  }
+  
+  .highlight {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+      color: #e31b6d;
+  }
+    
+    .img-text {
+      left: 0;
+      position: relative;
+      bottom: 18rem;
+      /* border: 1px solid red; */
+      width: 23rem;
+      height: 3rem;
+      display: none;
+      left: 8rem;
+      text-align: center;
+      /* transition-delay: 2s; */
+  }
+    .btn-learn-more {
+        position: relative;
+        bottom: 4rem;
+        border: 2px solid #e31b6d;
+        font-size: 1.8rem;
+        margin: 0 auto;
+        padding: 7px 0;
+        width: 17rem;
+        color: #fff;
+        background-color: #252627;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        z-index: 2;
+        display: none;
+    }
+     
+   .btn-learn-more:hover {
+      background-color: #e31b6f;
+    }
+    .card-img:hover {
+      opacity: 0;
+      /* background-image: none; */
+      /* background-color: #fff; */
+    }
+    .filter:hover .btn-learn-more {
+        display: block;
+        cursor: pointer;
+        bottom: 12rem;
+        animation: slideUp .5s ;
+        color:#fff;
+    }
+    .filter:hover .img-text {
+      display: block;
+      animation: slideDown .5s;
+    }
+    /* .filter:hover {
+      opacity: 0;
+      background-color: #252627;
+      background-image: #252627;
+    } */
+    @keyframes slideUp {
+      0% {
+        transform: translateY(4.7rem);
+      }
+      100% {
+        color: #fff;
+        transform: translateY(0);
+      }
+    }
+    @keyframes slideDown {
+      0% {
+        transform: translateY(-7rem);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+    /* @keyframes fadeWhite {
+       from {background-color: #252627;}
+       to {background-color: #fff;}
+    } */
