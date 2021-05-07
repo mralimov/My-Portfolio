@@ -1,0 +1,48 @@
+   
+    .about  {
+        height: 60vh;
+        margin-top: 25rem;
+      }
+    
+      .about h1,
+      .work h1  {
+        font-size: 16rem;
+        z-index: 0;
+        opacity: .1;
+      }
+    
+      .about-me-info  {
+        max-width: 90rem;
+        background-color: #252627;
+        box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
+        padding: 50px;
+        position: relative;
+        top: 0;
+        left: 15%;
+        right: 50%;
+        z-index: 1;
+        letter-spacing: 1px;
+      }
+    
+      .about-me-info:hover {
+        transform: scale(1.05);
+      }
+  
+      .about-me-info p {
+        font-size: 2.1rem;
+        color: #bebebe;
+      }
+    
+      a.about-me-info p:nth-child(2),
+      a.about-me-info p:last-child {
+        margin-top: 3rem;
+      }
+    
+      .about img  {
+        width: 30rem;
+        position: relative;
+        top: -30rem;
+        left: calc(100%-100px);
+        right: calc(100%-100px);
+        transform: translateX(calc(-100% + 10rem));
+     }  
