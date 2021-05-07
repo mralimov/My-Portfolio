@@ -1,4 +1,4 @@
-gitHubRepos = {
+export default gitHubRepos = {
   donnieBank: {
     id: 0,
     title: 'Donnie-Bank Transactions',
