@@ -228,6 +228,7 @@ html {
     .about-me-info:hover {
       transform: scale(1.05);
     }
+
     .about-me-info p {
       font-size: 2.1rem;
       color: #bebebe;
@@ -333,7 +334,10 @@ html {
       height: 100%;
   }
   
- 
+  .fas:hover, .fab:hover  {
+   color: #ed5565;
+   transform: scale(1.8);
+ }
  
   .project-head {
     font-size: 2.6rem;
@@ -567,7 +571,7 @@ html {
       display: flex;
          position: fixed;
         position: fixed; 
-        top: 50%;
+        top: 78%;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -585,7 +589,7 @@ html {
   .ul-class li .fa {
       color: #000000;
       font-size: 25px;
-      line-height: 5rem;
+      line-height: 3.1rem;
       transition: .5s;
       
   }

@@ -9,7 +9,7 @@
   font-family: 'Montserrat', sans-serif;
   background-color: #252627;
   color: #111;
-  height: 10vh;
+  height: 16vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@
 
 .fullstack {
   width: var(--fullstack-width);
-  height: var(--fullstack-height);
+  height: 10rem;
   background-color: #252627;
   color: #eee;
   overflow: hidden;
