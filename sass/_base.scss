@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+  }
+
+  *,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+      font-size: 62.5%; /*default 16px 1rem = 10px  */
+     /* font-family: 'Signika', sans-serif; */
+     /* font-family: 'Josefin Sans', sans-serif; */
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
+
+body  {
+    background-color: #252627;
+  }
+
+  
