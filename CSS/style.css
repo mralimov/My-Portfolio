@@ -333,34 +333,32 @@ html {
       height: 100%;
   }
   
-  .text {
-      color: lime;
-      /* opacity: 0; */
-      text-align: center;
-      transition: all 0.3s ease-in-out;
-      top: 0;
-      left: 0;
-  }
+ 
  
   .project-head {
-    font-size: 1.8rem;
+    font-size: 2.6rem;
     font-weight: 700;
     font-family: "Raleway-bold";
-    color: lime;
+    color: #fff;
+    letter-spacing: 2px;
 }
 
 .highlight {
-    color: lime;
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+    color: #e31b6d;
 }
   
   .img-text {
     left: 0;
     position: relative;
     bottom: 18rem;
-    border: 1px solid red;
-    width: 20rem;
+    /* border: 1px solid red; */
+    width: 23rem;
+    height: 3rem;
     display: none;
     left: 8rem;
+    text-align: center;
     /* transition-delay: 2s; */
 }
   .btn-learn-more {
@@ -380,6 +378,8 @@ html {
    
   .project-img:hover {
     opacity: 0;
+    /* background-image: none; */
+    /* background-color: #fff; */
   }
   .filter:hover .btn-learn-more {
       display: block;
