@@ -18,10 +18,10 @@
   "homepage": "https://github.com/mralimov/My-Portfolio#readme",
   "devDependencies": {
     "@babel/core": "^7.14.0",
-    "@babel-cli": "^6.26.0",
     "node-sass": "^5.0.0"
   },
   "dependencies": {
-    "babel-preset-react-app": "^3.1.2"
+    "babel-preset-react-app": "^3.1.2",
+    "braces": "^3.0.2"
   }
 }
