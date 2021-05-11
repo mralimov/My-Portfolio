@@ -1,6 +1,7 @@
 export const myRepos = [
   {
     id: 0,
+    language: 'js',
     title: 'Donnie-Bank Transactions',
     tag: 'BANK TRANSACTIONS',
     details:
@@ -9,6 +10,7 @@ export const myRepos = [
   },
   {
     id: 1,
+    language: 'js',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -17,6 +19,7 @@ export const myRepos = [
   },
   {
     id: 2,
+    language: 'js',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -25,6 +28,7 @@ export const myRepos = [
   },
   {
     id: 3,
+    language: 'js',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -33,6 +37,7 @@ export const myRepos = [
   },
   {
     id: 4,
+    language: 'js',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -41,6 +46,7 @@ export const myRepos = [
   },
   {
     id: 5,
+    language: 'js',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -49,6 +55,7 @@ export const myRepos = [
   },
   {
     id: 6,
+    language: 'js',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -57,6 +64,7 @@ export const myRepos = [
   },
   {
     id: 7,
+    language: 'css',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -65,6 +73,7 @@ export const myRepos = [
   },
   {
     id: 8,
+    language: 'css',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -73,6 +82,7 @@ export const myRepos = [
   },
   {
     id: 9,
+    language: 'css',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -81,6 +91,7 @@ export const myRepos = [
   },
   {
     id: 10,
+    language: 'css',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -89,6 +100,7 @@ export const myRepos = [
   },
   {
     id: 11,
+    language: 'css',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -97,6 +109,7 @@ export const myRepos = [
   },
   {
     id: 12,
+    language: 'css',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -105,6 +118,7 @@ export const myRepos = [
   },
   {
     id: 13,
+    language: 'react',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -113,6 +127,7 @@ export const myRepos = [
   },
   {
     id: 14,
+    language: 'react',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -121,6 +136,7 @@ export const myRepos = [
   },
   {
     id: 15,
+    language: 'react',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -129,6 +145,7 @@ export const myRepos = [
   },
   {
     id: 16,
+    language: 'react',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -137,6 +154,7 @@ export const myRepos = [
   },
   {
     id: 17,
+    language: 'react',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -145,6 +163,7 @@ export const myRepos = [
   },
   {
     id: 18,
+    language: 'react',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -153,6 +172,7 @@ export const myRepos = [
   },
   {
     id: 19,
+    language: 'python',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -161,6 +181,7 @@ export const myRepos = [
   },
   {
     id: 20,
+    language: 'python',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -169,6 +190,7 @@ export const myRepos = [
   },
   {
     id: 21,
+    language: 'python',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -177,6 +199,7 @@ export const myRepos = [
   },
   {
     id: 22,
+    language: 'python',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -185,6 +208,7 @@ export const myRepos = [
   },
   {
     id: 23,
+    language: 'python',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -193,6 +217,7 @@ export const myRepos = [
   },
   {
     id: 24,
+    language: 'python',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -201,6 +226,7 @@ export const myRepos = [
   },
   {
     id: 25,
+    language: 'mern',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -209,6 +235,7 @@ export const myRepos = [
   },
   {
     id: 26,
+    language: 'mern',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -217,6 +244,7 @@ export const myRepos = [
   },
   {
     id: 27,
+    language: 'mern',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -225,6 +253,7 @@ export const myRepos = [
   },
   {
     id: 28,
+    language: 'mern',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -233,6 +262,7 @@ export const myRepos = [
   },
   {
     id: 29,
+    language: 'mern',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
@@ -241,6 +271,7 @@ export const myRepos = [
   },
   {
     id: 30,
+    language: 'mern',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     details:
