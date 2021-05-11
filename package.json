@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/mralimov/My-Portfolio#readme",
   "devDependencies": {
-    "@babel/core": "^7.14.0",
     "node-sass": "^5.0.0"
   },
   "dependencies": {
