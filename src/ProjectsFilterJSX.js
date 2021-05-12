@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ProjectsMenu from './components/ProjectsMenu';
-import ReposCard from './components/ProjectsCard';
+import ReposComponent from './components/ReposComponent';
+// import ReposCard from './components/ProjectsCard';
+import ReposGallery from './components/ReposGallery';
 // import myRepos from '../JS/data';
 function ProjectsHead() {
   return (
     <>
-      <ProjectsMenu />
-      <ReposCard />
+      <ReposComponent />
     </>
   );
 }
