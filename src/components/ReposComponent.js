@@ -10,10 +10,10 @@ const ReposComponent = () => {
   const [items, setItems] = useState(Data);
   const [allRepos, setallRepos] = useState(allDataValues);
   const filterItem = (el) => {
-    if (el === 'JAVASCRIPT') {
-      setItems(Data);
-      return;
-    }
+    // if (el === 'JAVASCRIPT') {
+    //   setItems(Data);
+    //   return;
+    // }
     const updateItems = Data.filter((curEl) => {
       return curEl.language === el;
     });
