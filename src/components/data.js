@@ -13,10 +13,10 @@ const Data = [
   {
     id: 2,
     language: 'JAVASCRIPT',
-    title: 'Random Dice Game',
-    tag: 'DICE GAME FOR TWO PEOPLE',
-    highlights: 'JavaScript Arrays',
-    image: '../../IMG/',
+    title: 'Productivity Booster',
+    tag: 'MY DAILY PRODUCTIVITY',
+    highlights: 'JAVASCRIPT AJAX/API',
+    image: '../../IMG/Productivity booster.PNG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -26,8 +26,8 @@ const Data = [
     language: 'JAVASCRIPT',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
-    highlights: 'JavaScript Arrays',
-    image: '../../IMG/',
+    highlights: 'JAVASCRIPT',
+    image: '../../IMG/Random-Dice-Game.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -37,8 +37,8 @@ const Data = [
     language: 'JAVASCRIPT',
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
-    highlights: 'JavaScript Arrays',
-    image: '../../IMG/',
+    highlights: 'JAVASCRIPT OOP',
+    image: '../../IMG/Forkify-JS.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
