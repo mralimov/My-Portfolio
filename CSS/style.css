@@ -287,12 +287,10 @@ a.about-me-info p:last-child {
 
 .projects {
   width: 90%;
-  height: 160rem;
   /* background-color: #252627; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+  align-items: center; }
 
 .projects-menu {
   width: 100%;
@@ -330,17 +328,17 @@ a.about-me-info p:last-child {
 
 .projects-box {
   width: 120rem;
-  height: 130rem;
+  height: 70rem;
   margin-top: 2rem;
   display: grid;
-  grid-template-rows: repeat(3, 25rem);
-  grid-template-columns: repeat(3, 40rem);
-  grid-gap: 1rem;
+  grid-template-rows: repeat(2, 30rem);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
   padding: 5rem; }
 
 .filter {
   width: 40rem;
-  height: 25rem;
+  height: 30rem;
   position: relative; }
 
 .card-img {
@@ -372,9 +370,8 @@ a.about-me-info p:last-child {
   color: #e31b6d; }
 
 .img-text {
-  left: 0;
   position: relative;
-  bottom: 18rem;
+  bottom: 25rem;
   /* border: 1px solid red; */
   width: 23rem;
   height: 3rem;
@@ -398,7 +395,7 @@ a.about-me-info p:last-child {
   z-index: 2;
   display: none; }
 
-.btn-learn-more:hover {
+#projects .projects-box .filter .btn-learn-more:hover {
   background-color: #e31b6f; }
 
 .card-img:hover {
@@ -573,15 +570,6 @@ a {
 .Button:active {
   -webkit-transform: translate(2px, 2px);
   transform: translate(2px, 2px); }
-
-.projects {
-  width: 90%;
-  height: 160rem;
-  /* background-color: #252627; */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
 
 .projects-menu {
   width: 100%;
