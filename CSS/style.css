@@ -22,7 +22,7 @@
   color: #000000;
   font-size: 25px;
   line-height: 3.1rem;
-  transition: .5s; }
+  transition: 0.5s; }
 
 .ul-class li .fa:hover {
   color: #ffffff; }
@@ -55,21 +55,10 @@
   background-color: #000000; }
 
 .ul-class li:nth-child(5) a:hover {
-  background-color: #0077B5; }
+  background-color: #0077b5; }
 
 .ul-class li:nth-child(6) a:hover {
   background-color: #59dd1c; }
-
-.Resume-download {
-  display: grid;
-  color: #ffffff;
-  padding-left: 50%;
-  font-size: x-large;
-  border-radius: 50%; }
-
-.fa-cloud-download {
-  padding: 1rem;
-  font-size: 2rem; }
 
 * {
   margin: 0;
@@ -445,7 +434,7 @@ form textarea {
   border: 3px solid #707070;
   margin: 2rem 0;
   outline: none;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: #fff;
   position: relative;
   left: 50%;
@@ -454,12 +443,12 @@ form textarea {
 
 form input:last-child {
   width: 15rem;
-  background-color: #ED5565;
+  background-color: #ed5565;
   border: none;
   cursor: pointer; }
 
 .download-container {
-  font-size: 16px; }
+  font-size: 1.6rem; }
 
 .download-hover {
   display: -webkit-box;
@@ -497,8 +486,8 @@ a {
   position: relative;
   background-color: #ed5565;
   color: #fff;
-  font-size: 1.2rem;
-  border-radius: 100rem;
+  font-size: 2rem;
+  border-radius: 160rem;
   width: 20rem;
   height: 6rem;
   box-shadow: 0 2px 2rem rgba(0, 0, 0, 0.7), inset 0 1px rgba(255, 255, 255, 0.3);
@@ -512,7 +501,7 @@ a {
   overflow: hidden; }
 
 .Button__text {
-  line-height: 6rem;
+  line-height: 7.2rem;
   top: 0; }
 
 .Button__icon {
@@ -524,7 +513,7 @@ a {
   width: 20rem;
   height: 6rem;
   background-color: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   border-radius: 0.25em;
   line-height: 5rem;
   bottom: 9rem;
@@ -548,7 +537,7 @@ a {
   visibility: hidden; }
 
 .Button:hover {
-  background-color: #01baef; }
+  background-color: #252627; }
 
 .Button:hover .Button__text {
   top: -100%; }
@@ -570,6 +559,16 @@ a {
 .Button:active {
   -webkit-transform: translate(2px, 2px);
   transform: translate(2px, 2px); }
+
+.Resume-download {
+  color: #ffffff;
+  padding-left: 50%;
+  font-size: x-large;
+  border-radius: 50%; }
+
+.fa-cloud-download {
+  padding: 1rem;
+  font-size: 2rem; }
 
 .projects-menu {
   width: 100%;
