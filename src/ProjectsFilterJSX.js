@@ -11,7 +11,6 @@ function ProjectsHead() {
     </>
   );
 }
-console.log('RUNNING....');
-// const header = <h2>Hello World</h2>;
+console.log('RUNNING..');
 
 ReactDOM.render(<ProjectsHead />, document.getElementById('projects'));
