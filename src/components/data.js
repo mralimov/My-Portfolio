@@ -5,7 +5,7 @@ const Data = [
     title: 'Donnie-Bank Transactions',
     tag: 'BANK TRANSACTIONS',
     highlights: 'JAVASCRIPT ARRAY',
-    image: "../../IMG/Donnie's-Bank.JPG",
+    image: '../../IMG/JS-BANK400x300.jpg',
     details:
       'Donnie-Bank  is a app that lets customers to login to thier bank account and see the all the transactions, request a loan or transfer money to frined who uses same bank.',
     link: 'https://donnie-bank-js.netlify.app/',
@@ -49,7 +49,7 @@ const Data = [
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'JavaScript Arrays',
-    image: '../../IMG/',
+    image: '../../IMG/Guess my number.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -60,7 +60,7 @@ const Data = [
     title: 'Random Dice Game',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'JavaScript Arrays',
-    image: '../../IMG/',
+    image: '../../IMG/Day planner JS.PNG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
