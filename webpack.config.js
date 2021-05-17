@@ -1,19 +1,22 @@
 const path = require('path');
-const webpack = require('webpack');
+
 module.exports = {
-  entry: './src/ProjectsFilterJSX.js',
+  devServer: {
+    contentBase: path.resolve(__dirname, ''),
+    historyApiFallback: true,
+  },
+  entry: path.resolve(__dirname, './src/ProjectsFilterJSX.js'),
   output: {
     path: path.join(__dirname),
-    filename: '{projectsFilter.js',
+    filename: 'bundle.js',
   },
   module: {
     rules: [
       {
-        loader: 'babel-loader',
         test: /\.js$/,
+        loader: 'babel-loader',
         exclude: /node_modules/,
       },
     ],
   },
-  devtools: '',
 };
