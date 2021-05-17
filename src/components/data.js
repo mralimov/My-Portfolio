@@ -35,8 +35,8 @@ const Data = [
   {
     id: 4,
     language: 'JAVASCRIPT',
-    title: 'Random Dice Game',
-    tag: 'DICE GAME FOR TWO PEOPLE',
+    title: 'Recipe Finder',
+    tag: 'OVER 500 COOKING RECIPES',
     highlights: 'JAVASCRIPT OOP',
     image: '../../IMG/Forkify-JS.JPG',
     details:
@@ -46,9 +46,9 @@ const Data = [
   {
     id: 5,
     language: 'JAVASCRIPT',
-    title: 'Random Dice Game',
-    tag: 'DICE GAME FOR TWO PEOPLE',
-    highlights: 'JavaScript Arrays',
+    title: 'Guess My Number Game',
+    tag: 'GUESS COMPUTER"S NUMBER',
+    highlights: 'JAVASCRIPT DOM MANIPULATION',
     image: '../../IMG/Guess my number.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
@@ -57,9 +57,9 @@ const Data = [
   {
     id: 6,
     language: 'JAVASCRIPT',
-    title: 'Random Dice Game',
-    tag: 'DICE GAME FOR TWO PEOPLE',
-    highlights: 'JavaScript Arrays',
+    title: 'MY TODOS',
+    tag: 'JAVASCRIPT TODO APP',
+    highlights: 'JAVASCRIPT',
     image: '../../IMG/Day planner JS.PNG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
