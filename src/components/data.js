@@ -211,10 +211,10 @@ const Data = [
   {
     id: 20,
     language: 'PYTHON',
-    title: 'PYTHON APP',
+    title: 'US .STATES GAME',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'PYTHON',
-    image: '../../IMG/',
+    image: '../../IMG/US.State Game Python.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -222,21 +222,21 @@ const Data = [
   {
     id: 21,
     language: 'PYTHON',
-    title: 'PYTHON APP',
-    tag: 'DICE GAME FOR TWO PEOPLE',
-    highlights: 'PYTHON',
-    image: '../../IMG/',
+    title: 'TURTLE RACE GAME',
+    tag: 'Quiz questions built OOP',
+    highlights: 'PYTHON OOP',
+    image: '../../IMG/Turtle game python.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+    link: 'https://github.com/mralimov/Quiz-Questions-OOP-Python',
   },
   {
     id: 22,
     language: 'PYTHON',
-    title: 'PYTHON APP',
+    title: 'QUIZ QUESTIONS',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'PYTHON',
-    image: '../../IMG/',
+    image: '../../IMG/Quiz questions python.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -244,10 +244,10 @@ const Data = [
   {
     id: 23,
     language: 'PYTHON',
-    title: 'PYTHON APP',
+    title: 'PING-PONG GAME',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'PYTHON',
-    image: '../../IMG/',
+    image: '../../IMG/PingPong Game Python.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -255,10 +255,10 @@ const Data = [
   {
     id: 24,
     language: 'PYTHON',
-    title: 'PYTHON APP',
+    title: 'SNAKE GAME',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'PYTHON',
-    image: '../../IMG/',
+    image: '../../IMG/Snake-Game Python.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
