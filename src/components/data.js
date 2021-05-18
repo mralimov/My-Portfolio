@@ -178,7 +178,7 @@ const Data = [
   {
     id: 17,
     language: 'REACT',
-    title: 'REACT APP',
+    title: 'REACT TODOS',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'REACT',
     image: '../../IMG/',
