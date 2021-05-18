@@ -10,6 +10,7 @@
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "watch": "webpack serve --mode=development",
     "build": "webpack serve --mode=production"
+
   },
   "repository": {
     "type": "git",
