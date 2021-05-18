@@ -7,11 +7,9 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "watch": "webpack serve --mode=development",
     "build": "webpack --mode=production",
-    "babel-build": "npx babel src/ProjectsFilterJSX.js --out-file {projecsFilter.js --watch",
     "dev": "webpack-dev-server"
   },
   "repository": {
