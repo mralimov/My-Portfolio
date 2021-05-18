@@ -7,8 +7,8 @@ module.exports = {
   },
   entry: path.resolve(__dirname, './src/ProjectsFilterJSX.js'),
   output: {
-    path: path.join(__dirname),
-    filename: 'bundle.js',
+    path: path.join(__dirname, ''),
+    filename: '{projectsFilter.js',
   },
   module: {
     rules: [
@@ -19,4 +19,5 @@ module.exports = {
       },
     ],
   },
+  // devtool: 'cheap-module-eval-source-map',
 };
