@@ -18,6 +18,7 @@ module.exports = {
         exclude: /node_modules/,
       },
     ],
+    loaders: [{ test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' }],
   },
   // devtool: 'cheap-module-eval-source-map',
 };
