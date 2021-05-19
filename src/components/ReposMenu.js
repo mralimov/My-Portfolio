@@ -9,7 +9,7 @@ const ReposMenu = ({ filterItem, allRepos }) => {
             return (
               <button
                 key={i}
-                className='btn'
+                className='btn active'
                 // data-filter='all'
                 onClick={() => filterItem(curEl)}
               >
