@@ -126,7 +126,7 @@
   display: none;
 }
 
-#projects .projects-box .filter .btn-learn-more:hover {
+.btn-learn-more:hover {
   background-color: #e31b6f;
 }
 .card-img:hover {
@@ -145,11 +145,11 @@
   display: block;
   animation: slideDown 0.5s;
 }
-/* .filter:hover {
-      opacity: 0;
-      background-color: #252627;
-      background-image: #252627;
-    } */
+.filter:hover .card-img .project-img {
+  opacity: 0;
+  background-color: #252627;
+  background-image: #252627;
+}
 @keyframes slideUp {
   0% {
     transform: translateY(4.7rem);
