@@ -233,11 +233,20 @@ span.m-left {
   height: 60vh;
   margin-top: 25rem; }
 
-.about h1,
-.work h1 {
+.work h1,
+.contact h1 {
   font-size: 16rem;
   z-index: 0;
-  opacity: .1; }
+  opacity: 0.1; }
+
+.work h1 {
+  margin-left: 8rem; }
+
+.skills h1,
+.about h1 {
+  text-align: right;
+  font-size: 16rem;
+  opacity: 0.1; }
 
 .about-me-info {
   max-width: 90rem;
@@ -606,15 +615,6 @@ a {
 
 .container {
   padding: 0 10rem 0 10rem; }
-
-.skills h1,
-.contact h1 {
-  text-align: right;
-  font-size: 16rem;
-  opacity: 0.1; }
-
-.work {
-  margin-top: 100rem; }
 
 .work a {
   justify-self: center;
