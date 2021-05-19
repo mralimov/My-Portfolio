@@ -412,7 +412,7 @@ a.about-me-info p:last-child {
   display: block;
   animation: slideDown 0.5s; }
 
-.filter:hover .card-img .project-img {
+.filter:hover .card-img {
   opacity: 0;
   background-color: #252627;
   background-image: #252627; }
