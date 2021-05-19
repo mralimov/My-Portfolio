@@ -9,15 +9,15 @@
   font-family: 'Montserrat', sans-serif;
   background-color: #252627;
   color: #111;
-  height: 16vh;
-  display: flex;
+  padding: 15rem 0;
   justify-content: center;
   align-items: center;
-  margin-top: 20rem;
+  /* margin-top: 20rem; */
 }
 
+
 :root {
-  --fullstack-width: 90vw;
+  --fullstack-width: 80vw;
   --fullstack-height: 10vh;
   /* --marquee-elements: 12; */ /* defined with JavaScript */
   --fullstack-elements-displayed: 5;
@@ -26,13 +26,16 @@
 }
 
 .fullstack {
-  width: var(--fullstack-width);
+  width: 100%;
+  margin-left: 8rem;
   height: 10rem;
   background-color: #252627;
   color: #eee;
   overflow: hidden;
   position: relative;
 }
+
+
 .fullstack:before, .fullstack:after {
   position: absolute;
   top: 0;
