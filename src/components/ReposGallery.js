@@ -10,11 +10,7 @@ const ReposGallery = ({ item }) => {
           return (
             <div className='filter' key={id}>
               <div className='card-img'>
-                <img
-                  className='project-img'
-                  src={`http://localhost:8080/IMG/${image}`}
-                  alt=''
-                />
+                <img className='project-img' src={image} alt='' />
               </div>
               <div className='img-text'>
                 <div className='project-head'>{title}</div>
