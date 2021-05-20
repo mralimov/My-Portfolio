@@ -5,7 +5,7 @@ const Data = [
     title: 'DONNIE-BANK Transactions',
     tag: 'BANK TRANSACTIONS',
     highlights: 'JAVASCRIPT ARRAY',
-    image: '../../IMG/JS-BANK400x300.jpg',
+    image: '../IMG/JS-BANK400x300.jpg',
     details:
       'Donnie-Bank  is a app that lets customers to login to thier bank account and see the all the transactions, request a loan or transfer money to frined who uses same bank.',
     link: 'https://donnie-bank-js.netlify.app/',
