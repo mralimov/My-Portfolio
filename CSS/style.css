@@ -613,6 +613,9 @@ a {
   position: relative;
   transform: scale(1.1); }
 
+.modal-wrap .visible {
+  pointer-events: initial; }
+
 .modal-wrap {
   height: 100vh;
   position: fixed;
