@@ -1,6 +1,7 @@
 import React from 'react';
 // import Data from './data';
 const ReposGallery = ({ item }) => {
+  console.log(item);
   return (
     <div className='projects-box'>
       {item.map((el, i) => {
@@ -9,7 +10,11 @@ const ReposGallery = ({ item }) => {
           return (
             <div className='filter' key={id}>
               <div className='card-img'>
-                <img className='project-img' src={image} alt='' />
+                <img
+                  className='project-img'
+                  src={`http://localhost:8080/IMG/${image}`}
+                  alt=''
+                />
               </div>
               <div className='img-text'>
                 <div className='project-head'>{title}</div>
