@@ -412,7 +412,7 @@ a.about-me-info p:last-child {
   display: block;
   animation: slideDown 0.5s; }
 
-.filter:hover .card-img .project-img {
+.filter:hover .card-img {
   opacity: 0;
   background-color: #252627;
   background-image: #252627; }
@@ -612,6 +612,181 @@ a {
   transition: 0.2s linear;
   position: relative;
   transform: scale(1.1); }
+
+.modal-wrap {
+  height: 100vh;
+  position: fixed;
+  width: 100vw;
+  z-index: 100; }
+
+.flex {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.modal-wrap.visible .mask {
+  opacity: 1; }
+
+.modal-wrap .mask {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity 0.3s;
+  width: 100%; }
+
+.modal-wrap.visible .modal {
+  opacity: 1;
+  transform: scale(1); }
+
+.modal-wrap .modal {
+  align-items: flex-start;
+  background: #fff;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+  height: 100vh;
+  opacity: 0;
+  transform: scale(0.8);
+  box-sizing: border-box;
+  color: #333;
+  position: relative;
+  text-align: left;
+  transition: all 0.3s; }
+
+.carousel-wrap {
+  height: 25rem;
+  margin: 0 auto;
+  position: relative; }
+
+.window {
+  background: #222;
+  overflow: hidden;
+  position: relative; }
+
+#carousel {
+  position: relative;
+  top: 0;
+  width: 10000px; }
+
+.slide {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  height: 25rem;
+  justify-content: center; }
+
+.mdi-chevron-left {
+  left: 0; }
+
+.mdi-chevron-left,
+.mdi-chevron-right {
+  background: rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14pt !important;
+  font-weight: bold;
+  padding: 1rem 1.5rem;
+  position: absolute; }
+
+.mdi {
+  display: inline-block;
+  font: normal normal normal 24px/1 "Material Design Icons";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0); }
+
+.mdi-chevron-right {
+  right: 0; }
+
+.modal-wrap .info-box {
+  border-top: 3px solid #1b242f;
+  box-sizing: border-box;
+  color: #444;
+  padding: 1.5rem 1rem 8.5rem 1rem; }
+
+.modal-wrap .modal_title {
+  font-family: "Raleway-bold";
+  font-size: 16pt;
+  line-height: 20pt; }
+
+.modal-wrap .modal_tag {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color: #c0c0c0;
+  display: block;
+  font-family: "Raleway-bold";
+  font-size: 8pt;
+  font-weight: 300;
+  padding-bottom: 15px; }
+
+.modal-wrap .modal_detail {
+  font-size: 9pt;
+  line-height: 14pt;
+  margin-top: 1.3rem; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline; }
+
+.modal-wrap .button {
+  background: #e31b6d;
+  border: 0;
+  bottom: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 10pt;
+  font-weight: 600;
+  left: 1rem;
+  padding: 1.1rem 3rem;
+  pointer-events: none;
+  position: absolute;
+  transition: all 0.5s;
+  visibility: hidden; }
+
+.button {
+  border: 2px solid #fff;
+  box-sizing: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13pt;
+  padding: 10px 20px;
+  transition: all 0.5s; }
+
+.modal-wrap .mdi-open-in-new {
+  font-size: 11pt;
+  left: -10px;
+  position: relative; }
+
+.button .mdi {
+  vertical-align: middle; }
+
+.mdi {
+  display: inline-block;
+  font: normal normal normal 24px/1 "Material Design Icons";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0); }
+
+.modal-wrap .close {
+  bottom: 25px;
+  color: #bbb;
+  cursor: pointer;
+  font-size: 20pt;
+  font-weight: 800;
+  position: absolute;
+  right: 10px; }
 
 .container {
   padding: 0 10rem 0 10rem; }
