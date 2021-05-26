@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const ReposMenu = ({ filterItem, allRepos }) => {
+  // const [item, setItem] = useState('');
+
+  // function addActive() {
+  //   const toggling = document
+  //     .querySelector('.btn')
+  //     .classList.toggle('btn-active');
+  //   setItem(toggling);
+  // }
   return (
     <>
       <div className='projects-menu'>
