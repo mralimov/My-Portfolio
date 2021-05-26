@@ -178,13 +178,13 @@ const Data = [
   {
     id: 17,
     language: 'REACT',
-    title: 'REACT TODOS',
+    title: 'MY EXPENSES Component',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'REACT',
-    image: '../../IMG/',
+    image: '../../IMG/My-react-expenses.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+    link: 'https://my-react-expenses.netlify.app/',
   },
   {
     id: 18,
