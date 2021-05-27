@@ -10,7 +10,7 @@ const ReposGallery = ({ item }) => {
           return (
             <div className='filter' key={id}>
               <div className='card-img'>
-                <img className='project-img' src={image} alt='' />
+                <img className='project-img' src={require(image)} alt='' />
               </div>
               <div className='img-text'>
                 <div className='project-head'>{title}</div>
