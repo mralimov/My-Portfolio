@@ -1,7 +1,7 @@
 import React from 'react';
 // import Data from './data';
 const ReposGallery = ({ item }) => {
-  console.log(item);
+  // console.log(item);
   return (
     <div className='projects-box'>
       {item.map((el, i) => {
