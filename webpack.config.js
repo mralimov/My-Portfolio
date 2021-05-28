@@ -17,6 +17,12 @@ module.exports = {
         loader: 'babel-loader',
         exclude: /node_modules/,
       },
+      {
+        test: /\.(png|svg|jpe?g|gif)$/i,
+        use: {
+          loader: 'file-loader',
+        },
+      },
     ],
   },
   // devtool: 'cheap-module-eval-source-map',
