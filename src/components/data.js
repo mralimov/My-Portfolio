@@ -5,7 +5,7 @@ const Data = [
     title: 'DONNIE-BANK Transactions',
     tag: 'BANK TRANSACTIONS',
     highlights: 'JAVASCRIPT ARRAY',
-    image: '../IMG/JS-BANK400x300.jpg',
+    image: './IMG/JS-BANK400x300.jpg',
     details:
       'Donnie-Bank  is a app that lets customers to login to thier bank account and see the all the transactions, request a loan or transfer money to frined who uses same bank.',
     link: 'https://donnie-bank-js.netlify.app/',
@@ -16,7 +16,7 @@ const Data = [
     title: 'PRODUCTIVITY Booster',
     tag: 'MY DAILY PRODUCTIVITY',
     highlights: 'JAVASCRIPT AJAX/API',
-    image: '../../IMG/ProductivityApp.JPG',
+    image: './IMG/ProductivityApp.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -27,7 +27,7 @@ const Data = [
     title: 'DICE GAME',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'JAVASCRIPT DOM MANIPULATION',
-    image: '../../IMG/Random-Dice-Game.JPG',
+    image: './IMG/Random-Dice-Game.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -38,7 +38,7 @@ const Data = [
     title: 'FIND RECIPE',
     tag: 'OVER 500 COOKING RECIPES',
     highlights: 'JAVASCRIPT API OOP',
-    image: '../../IMG/Forkify-JS.JPG',
+    image: './IMG/Forkify-JS.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -49,7 +49,7 @@ const Data = [
     title: 'GUESS MY NUMBER GAME',
     tag: 'GUESS COMPUTER"S NUMBER',
     highlights: 'JAVASCRIPT DOM MANIPULATION',
-    image: '../../IMG/Guess my number.JPG',
+    image: './IMG/Guess my number.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -60,7 +60,7 @@ const Data = [
     title: 'MY TODOS',
     tag: 'JAVASCRIPT TODO APP',
     highlights: 'JAVASCRIPT',
-    image: '../../IMG/Day planner JS.PNG',
+    image: './IMG/Day planner JS.PNG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -71,7 +71,7 @@ const Data = [
     title: 'DONNIE-BANK Landing Page',
     tag: 'Bank Landing Page',
     highlights: 'CSS FLOAT',
-    image: '../../IMG/Bank-landing page.JPG',
+    image: './IMG/Bank-landing page.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://donnie-bank-advanced-dom-js.netlify.app/',
@@ -82,7 +82,7 @@ const Data = [
     title: 'UZVOYAGE Travel-Agency',
     tag: 'UZVOYAGE TRAVEL AGENCY',
     highlights: 'CSS/SASS GRID/FLEXBOX',
-    image: '../../IMG/Uz-Voyage main page.JPG',
+    image: './IMG/Uz-Voyage main page.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://uz-voyage-travel.netlify.app/',
@@ -93,7 +93,7 @@ const Data = [
     title: 'REAL ESTATE Website',
     tag: "Real Estate Agency's landing page",
     highlights: 'CSS/SASS GRID',
-    image: '../../IMG/CSS-GRID Real-Estate.JPG',
+    image: './IMG/CSS-GRID Real-Estate.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://css-grid-real-estate-page.netlify.app/',
@@ -104,7 +104,7 @@ const Data = [
     title: 'TRILLO Booking-Agency',
     tag: 'Booking Hotel Car rental and flight',
     highlights: 'CSS/SASS Flexbox',
-    image: '../../IMG/Flexbox-Travel-agency.JPG',
+    image: './IMG/Flexbox-Travel-agency.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://flexbox-travel-agency-page.netlify.app/',
