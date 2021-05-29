@@ -5,7 +5,7 @@ const Data = [
     title: 'DONNIE-BANK Transactions',
     tag: 'BANK TRANSACTIONS',
     highlights: 'JAVASCRIPT ARRAY',
-    image: '../IMG/JS-BANK400x300.jpg',
+    image: './IMG/JS-BANK400x300.jpg',
     details:
       'Donnie-Bank  is a app that lets customers to login to thier bank account and see the all the transactions, request a loan or transfer money to frined who uses same bank.',
     link: 'https://donnie-bank-js.netlify.app/',
@@ -16,7 +16,7 @@ const Data = [
     title: 'PRODUCTIVITY Booster',
     tag: 'MY DAILY PRODUCTIVITY',
     highlights: 'JAVASCRIPT AJAX/API',
-    image: '../../IMG/ProductivityApp.JPG',
+    image: './IMG/ProductivityApp.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -27,7 +27,7 @@ const Data = [
     title: 'DICE GAME',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'JAVASCRIPT DOM MANIPULATION',
-    image: '../../IMG/Random-Dice-Game.JPG',
+    image: './IMG/Random-Dice-Game.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -38,7 +38,7 @@ const Data = [
     title: 'FIND RECIPE',
     tag: 'OVER 500 COOKING RECIPES',
     highlights: 'JAVASCRIPT API OOP',
-    image: '../../IMG/Forkify-JS.JPG',
+    image: './IMG/Forkify-JS.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -49,7 +49,7 @@ const Data = [
     title: 'GUESS MY NUMBER GAME',
     tag: 'GUESS COMPUTER"S NUMBER',
     highlights: 'JAVASCRIPT DOM MANIPULATION',
-    image: '../../IMG/Guess my number.JPG',
+    image: './IMG/Guess my number.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -60,7 +60,7 @@ const Data = [
     title: 'MY TODOS',
     tag: 'JAVASCRIPT TODO APP',
     highlights: 'JAVASCRIPT',
-    image: '../../IMG/Day planner JS.PNG',
+    image: './IMG/Day planner JS.PNG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -71,7 +71,7 @@ const Data = [
     title: 'DONNIE-BANK Landing Page',
     tag: 'Bank Landing Page',
     highlights: 'CSS FLOAT',
-    image: '../../IMG/Bank-landing page.JPG',
+    image: './IMG/Bank-landing page.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://donnie-bank-advanced-dom-js.netlify.app/',
@@ -82,7 +82,7 @@ const Data = [
     title: 'UZVOYAGE Travel-Agency',
     tag: 'UZVOYAGE TRAVEL AGENCY',
     highlights: 'CSS/SASS GRID/FLEXBOX',
-    image: '../../IMG/Uz-Voyage main page.JPG',
+    image: './IMG/Uz-Voyage main page.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://uz-voyage-travel.netlify.app/',
@@ -93,7 +93,7 @@ const Data = [
     title: 'REAL ESTATE Website',
     tag: "Real Estate Agency's landing page",
     highlights: 'CSS/SASS GRID',
-    image: '../../IMG/CSS-GRID Real-Estate.JPG',
+    image: './IMG/CSS-GRID Real-Estate.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://css-grid-real-estate-page.netlify.app/',
@@ -104,7 +104,7 @@ const Data = [
     title: 'TRILLO Booking-Agency',
     tag: 'Booking Hotel Car rental and flight',
     highlights: 'CSS/SASS Flexbox',
-    image: '../../IMG/Flexbox-Travel-agency.JPG',
+    image: './IMG/Flexbox-Travel-agency.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://flexbox-travel-agency-page.netlify.app/',
@@ -115,7 +115,7 @@ const Data = [
     title: 'TOUR AGENCY Info Page',
     tag: 'Tour agency Blog Page',
     highlights: 'CSS/SASS FLOAT',
-    image: '../../IMG/CSS Float TourAgency.JPG',
+    image: './IMG/CSS Float TourAgency.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://float-advanced-css-sass-website-uz-voyage.netlify.app/',
@@ -126,7 +126,7 @@ const Data = [
     title: 'FIND RECIPE Page',
     tag: 'Recipe Finder Page',
     highlights: 'CSS/SASS',
-    image: '../../IMG/Forkify-JS.JPG',
+    image: './IMG/Forkify-JS.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://github.com/mralimov/Recipe-Finder-JS-OOP',
@@ -137,7 +137,7 @@ const Data = [
     title: 'Portfolio Repos Component',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'REACT Props',
-    image: '../../IMG/Repos React Component.JPG',
+    image: './IMG/Repos React Component.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://mralimov.github.io/My-Portfolio/',
@@ -148,7 +148,7 @@ const Data = [
     title: 'REACT PORTFOLIO',
     tag: 'My React Portfolio',
     highlights: 'REACT',
-    image: '../../IMG/My-Portfolio-React.JPG',
+    image: './IMG/My-Portfolio-React.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -159,7 +159,7 @@ const Data = [
     title: 'GOOGLE BOOK Search',
     tag: 'Searching books in Google',
     highlights: 'REACT',
-    image: '../../IMG/Google-Book-Search-React.JPG',
+    image: './IMG/Google-Book-Search-React.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -170,7 +170,7 @@ const Data = [
     title: 'DIRECTORY SEARCH',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'REACT',
-    image: '../../IMG/Employee-Directory-React.JPG',
+    image: './IMG/Employee-Directory-React.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -181,7 +181,7 @@ const Data = [
     title: 'MY EXPENSES Component',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'REACT',
-    image: '../../IMG/My-react-expenses.JPG',
+    image: './IMG/My-react-expenses.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://my-react-expenses.netlify.app/',
@@ -192,7 +192,7 @@ const Data = [
     title: 'REACT APP',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'REACT',
-    image: '../../IMG/',
+    image: './IMG/',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -203,7 +203,7 @@ const Data = [
     title: 'HANGMAN GAME',
     tag: 'Hangman game Python',
     highlights: 'PYTHON',
-    image: '../../IMG/Hangman Game.JPG',
+    image: './IMG/Hangman Game.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://github.com/mralimov/HANGMAN-game-Python',
@@ -214,7 +214,7 @@ const Data = [
     title: 'US .STATES GAME',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'PYTHON',
-    image: '../../IMG/US.State Game Python.JPG',
+    image: './IMG/US.State Game Python.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -225,7 +225,7 @@ const Data = [
     title: 'TURTLE RACE GAME',
     tag: 'Quiz questions built OOP',
     highlights: 'PYTHON OOP',
-    image: '../../IMG/Turtle game python.JPG',
+    image: './IMG/Turtle game python.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://github.com/mralimov/Quiz-Questions-OOP-Python',
@@ -236,7 +236,7 @@ const Data = [
     title: 'QUIZ QUESTIONS',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'PYTHON',
-    image: '../../IMG/Quiz questions python.JPG',
+    image: './IMG/Quiz questions python.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -247,7 +247,7 @@ const Data = [
     title: 'PING-PONG GAME',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'PYTHON',
-    image: '../../IMG/PingPong Game Python.JPG',
+    image: './IMG/PingPong Game Python.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -258,7 +258,7 @@ const Data = [
     title: 'SNAKE GAME',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'PYTHON',
-    image: '../../IMG/Snake-Game Python.JPG',
+    image: './IMG/Snake-Game Python.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -269,7 +269,7 @@ const Data = [
     title: 'MERN PROJECT',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'MERN',
-    image: '../../IMG/',
+    image: './IMG/',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -280,7 +280,7 @@ const Data = [
     title: 'MERN PROJECT',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'MERN',
-    image: '../../IMG/',
+    image: './IMG/',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -291,7 +291,7 @@ const Data = [
     title: 'MERN PROJECT',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'MERN',
-    image: '../../IMG/',
+    image: './IMG/',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -302,7 +302,7 @@ const Data = [
     title: 'MERN PROJECT',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'MERN',
-    image: '../../IMG/',
+    image: './IMG/',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -313,7 +313,7 @@ const Data = [
     title: 'MERN PROJECT',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'MERN',
-    image: '../../IMG/',
+    image: './IMG/',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
@@ -324,7 +324,7 @@ const Data = [
     title: 'MERN PROJECT',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'MERN',
-    image: '../../IMG/',
+    image: './IMG/',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
     link: 'https://random-dice-number-js.netlify.app/',
