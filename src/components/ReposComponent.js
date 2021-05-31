@@ -9,21 +9,30 @@ const allDataValues = [...new Set(Data.map((curEl) => curEl.language))];
 const ReposComponent = () => {
   const [items, setItems] = useState(Data);
   const [allRepos, setallRepos] = useState(allDataValues);
+  const [modalData, setModalData] = useState('');
+
+  const filterModal = (e) => {
+    const updateModal = Data.filter((element) => {
+      return element.id === e;
+    });
+    setModalData(updateModal);
+  };
+  console.log(modalData);
   const filterItem = (el) => {
-    // if (el === 'JAVASCRIPT') {
-    //   setItems(Data);
-    //   return;
-    // }
     const updateItems = Data.filter((curEl) => {
       return curEl.language === el;
     });
     setItems(updateItems);
-    console.log(items);
   };
+
   return (
     <>
       <ReposMenu filterItem={filterItem} />
-      <ReposGallery item={items} />
+      <ReposGallery
+        item={items}
+        filterModal={filterModal}
+        modalData={modalData}
+      />
     </>
   );
 };
