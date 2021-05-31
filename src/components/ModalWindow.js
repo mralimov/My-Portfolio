@@ -4,31 +4,31 @@ const ModalWindow = (props) => {
   return (
     <div className='modal-wrap flex visible'>
       <div className='mask'></div>
-      <div className='modal' id='modal' style='max-width: 700px'>
-        <div className='carousel-wrap' style='width: 700px'>
+      <div className='modal' id='modal' style={{ maxWidth: '700px' }}>
+        <div className='carousel-wrap' style={{ width: '700px' }}>
           <div className='window'>
             <div
               id='carousel'
-              style='width: -700px; transform: translateX(0px)'
+              style={{ width: '-700px; transform: translateX(0px)' }}
               className
             >
               <img
                 className='slide'
-                style='width: 700px'
+                style={{ width: '700px' }}
                 src='https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg'
                 alt=''
               />
 
               <img
                 className='slide'
-                style='width: 700px'
+                style={{ width: '700px' }}
                 src='https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-mont-blanc.jpg'
                 alt=''
               />
 
               <img
                 className='slide'
-                style='width: 700px'
+                style={{ width: '700px' }}
                 src='https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-amiens-riquewihr.jpg'
                 alt=''
               />
