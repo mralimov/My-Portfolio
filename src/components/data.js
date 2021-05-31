@@ -67,7 +67,7 @@ const Data = [
   },
   {
     id: 7,
-    language: 'CSS/SASS',
+    language: 'CSS-SASS',
     title: 'DONNIE-BANK Landing Page',
     tag: 'Bank Landing Page',
     highlights: 'CSS FLOAT',
@@ -78,10 +78,10 @@ const Data = [
   },
   {
     id: 8,
-    language: 'CSS/SASS',
+    language: 'CSS-SASS',
     title: 'UZVOYAGE Travel-Agency',
     tag: 'UZVOYAGE TRAVEL AGENCY',
-    highlights: 'CSS/SASS GRID/FLEXBOX',
+    highlights: 'CSS-SASS GRID/FLEXBOX',
     image: './IMG/Uz-Voyage main page.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
@@ -89,10 +89,10 @@ const Data = [
   },
   {
     id: 9,
-    language: 'CSS/SASS',
+    language: 'CSS-SASS',
     title: 'REAL ESTATE Website',
     tag: "Real Estate Agency's landing page",
-    highlights: 'CSS/SASS GRID',
+    highlights: 'CSS-SASS GRID',
     image: './IMG/CSS-GRID Real-Estate.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
@@ -100,10 +100,10 @@ const Data = [
   },
   {
     id: 10,
-    language: 'CSS/SASS',
+    language: 'CSS-SASS',
     title: 'TRILLO Booking-Agency',
     tag: 'Booking Hotel Car rental and flight',
-    highlights: 'CSS/SASS Flexbox',
+    highlights: 'CSS-SASS Flexbox',
     image: './IMG/Flexbox-Travel-agency.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
@@ -111,10 +111,10 @@ const Data = [
   },
   {
     id: 11,
-    language: 'CSS/SASS',
+    language: 'CSS-SASS',
     title: 'TOUR AGENCY Info Page',
     tag: 'Tour agency Blog Page',
-    highlights: 'CSS/SASS FLOAT',
+    highlights: 'CSS-SASS FLOAT',
     image: './IMG/CSS Float TourAgency.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
@@ -122,10 +122,10 @@ const Data = [
   },
   {
     id: 12,
-    language: 'CSS/SASS',
+    language: 'CSS-SASS',
     title: 'FIND RECIPE Page',
     tag: 'Recipe Finder Page',
-    highlights: 'CSS/SASS',
+    highlights: 'CSS-SASS',
     image: './IMG/Forkify-JS.JPG',
     details:
       'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
