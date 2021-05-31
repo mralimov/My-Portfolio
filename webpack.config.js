@@ -7,7 +7,7 @@ module.exports = {
   },
   entry: path.resolve(__dirname, './src/ProjectsFilterJSX.js'),
   output: {
-    path: path.join(__dirname, ''),
+    path: path.join(__dirname, '/'),
     filename: '{projectsFilter.js',
   },
   module: {
