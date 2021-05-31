@@ -18,10 +18,11 @@ const ReposComponent = () => {
       return curEl.language === el;
     });
     setItems(updateItems);
+    console.log(items);
   };
   return (
     <>
-      <ReposMenu filterItem={filterItem} allRepos={allRepos} />
+      <ReposMenu filterItem={filterItem} />
       <ReposGallery item={items} />
     </>
   );
