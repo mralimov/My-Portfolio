@@ -29,7 +29,7 @@ const ReposGallery = ({ item, filterModal }) => {
                 <button className={`btn-learn-more ${id}`} onClick={addModal}>
                   LEARN MORE
                 </button>
-                <ModalWindow />
+                {/* <ModalWindow /> */}
                 {/* <a href={link}>LEARN MORE</a> */}
               </div>
             </>

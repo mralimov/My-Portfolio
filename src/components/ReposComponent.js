@@ -17,7 +17,7 @@ const ReposComponent = () => {
     });
     setModalData(updateModal);
   };
-  console.log(modalData);
+
   const filterItem = (el) => {
     const updateItems = Data.filter((curEl) => {
       return curEl.language === el;
