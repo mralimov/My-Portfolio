@@ -9,7 +9,8 @@
     "deploy": "gh-pages -d build",
     "compile:sass": "node-sass sass/main.scss css/style.css -w",
     "watch": "webpack serve --mode development",
-    "build": "webpack serve --mode production"
+    "build": "webpack serve --mode production",
+    "babel-comp": "npx babel src --out-file {projectsFilter.js"
   },
   "repository": {
     "type": "git",
