@@ -27,9 +27,11 @@ const ReposGallery = ({ item, filterModal }) => {
                   <span className='highlight'>{highlights}</span>
                 </div>
                 <button className={`btn-learn-more ${id}`} onClick={addModal}>
-                  LEARN MORE
+                  <a href={link} target='_blank'>
+                    LEARN MORE
+                  </a>
                 </button>
-                {/* <ModalWindow /> */}
+                <ModalWindow />
                 {/* <a href={link}>LEARN MORE</a> */}
               </div>
             </>
