@@ -18,14 +18,14 @@ const Data = [
     highlights: 'JAVASCRIPT AJAX/API',
     image: './IMG/ProductivityApp.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
     link: 'https://random-dice-number-js.netlify.app/',
   },
   {
     id: 3,
     language: 'JAVASCRIPT',
     title: 'DICE GAME',
-    tag: 'DICE GAME FOR TWO PEOPLE',
+    tag: 'DICE GAME FOR TWO PLAYERS',
     highlights: 'JAVASCRIPT DOM MANIPULATION',
     image: './IMG/Random-Dice-Game.JPG',
     details:
@@ -40,8 +40,8 @@ const Data = [
     highlights: 'JAVASCRIPT API OOP',
     image: './IMG/Forkify-JS.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/Recipe-Finder-JS-OOP',
   },
   {
     id: 5,
@@ -51,8 +51,8 @@ const Data = [
     highlights: 'JAVASCRIPT DOM MANIPULATION',
     image: './IMG/Guess my number.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://laughing-austin-551ef0.netlify.app/',
   },
   {
     id: 6,
@@ -62,8 +62,8 @@ const Data = [
     highlights: 'JAVASCRIPT',
     image: './IMG/Day planner JS.PNG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/Homework-5',
   },
   {
     id: 7,
@@ -73,7 +73,7 @@ const Data = [
     highlights: 'CSS FLOAT',
     image: './IMG/Bank-landing page.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
     link: 'https://donnie-bank-advanced-dom-js.netlify.app/',
   },
   {
@@ -84,7 +84,7 @@ const Data = [
     highlights: 'CSS-SASS GRID/FLEXBOX',
     image: './IMG/Uz-Voyage main page.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
     link: 'https://uz-voyage-travel.netlify.app/',
   },
   {
@@ -95,7 +95,7 @@ const Data = [
     highlights: 'CSS-SASS GRID',
     image: './IMG/CSS-GRID Real-Estate.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
     link: 'https://css-grid-real-estate-page.netlify.app/',
   },
   {
@@ -106,7 +106,7 @@ const Data = [
     highlights: 'CSS-SASS Flexbox',
     image: './IMG/Flexbox-Travel-agency.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
     link: 'https://flexbox-travel-agency-page.netlify.app/',
   },
   {
@@ -117,7 +117,7 @@ const Data = [
     highlights: 'CSS-SASS FLOAT',
     image: './IMG/CSS Float TourAgency.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
     link: 'https://float-advanced-css-sass-website-uz-voyage.netlify.app/',
   },
   {
@@ -128,7 +128,7 @@ const Data = [
     highlights: 'CSS-SASS',
     image: './IMG/Forkify-JS.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
     link: 'https://github.com/mralimov/Recipe-Finder-JS-OOP',
   },
   {
@@ -139,7 +139,7 @@ const Data = [
     highlights: 'REACT Props',
     image: './IMG/Repos React Component.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
     link: 'https://mralimov.github.io/My-Portfolio/',
   },
   {
@@ -150,8 +150,8 @@ const Data = [
     highlights: 'REACT',
     image: './IMG/My-Portfolio-React.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/My-React-Portfolio',
   },
   {
     id: 15,
@@ -161,8 +161,8 @@ const Data = [
     highlights: 'REACT',
     image: './IMG/Google-Book-Search-React.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/Google-Books-Search',
   },
   {
     id: 16,
@@ -172,8 +172,8 @@ const Data = [
     highlights: 'REACT',
     image: './IMG/Employee-Directory-React.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/React-Employee-Directory',
   },
   {
     id: 17,
@@ -183,8 +183,8 @@ const Data = [
     highlights: 'REACT',
     image: './IMG/My-react-expenses.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://my-react-expenses.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/My-React-Expenses',
   },
   {
     id: 18,
@@ -194,8 +194,8 @@ const Data = [
     highlights: 'REACT',
     image: './IMG/',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/',
   },
   {
     id: 19,
@@ -205,7 +205,7 @@ const Data = [
     highlights: 'PYTHON',
     image: './IMG/Hangman Game.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
     link: 'https://github.com/mralimov/HANGMAN-game-Python',
   },
   {
@@ -216,8 +216,8 @@ const Data = [
     highlights: 'PYTHON',
     image: './IMG/US.State Game Python.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/',
   },
   {
     id: 21,
@@ -227,8 +227,8 @@ const Data = [
     highlights: 'PYTHON OOP',
     image: './IMG/Turtle game python.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://github.com/mralimov/Quiz-Questions-OOP-Python',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/W',
   },
   {
     id: 22,
@@ -238,8 +238,8 @@ const Data = [
     highlights: 'PYTHON',
     image: './IMG/Quiz questions python.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/Quiz-Questions-OOP-Python',
   },
   {
     id: 23,
@@ -249,8 +249,8 @@ const Data = [
     highlights: 'PYTHON',
     image: './IMG/PingPong Game Python.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/PONG-GAME-PYTHON',
   },
   {
     id: 24,
@@ -260,8 +260,8 @@ const Data = [
     highlights: 'PYTHON',
     image: './IMG/Snake-Game Python.JPG',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov/Snake-Game-Python',
   },
   {
     id: 25,
@@ -271,8 +271,8 @@ const Data = [
     highlights: 'MERN',
     image: './IMG/',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov',
   },
   {
     id: 26,
@@ -282,8 +282,8 @@ const Data = [
     highlights: 'MERN',
     image: './IMG/',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov',
   },
   {
     id: 27,
@@ -293,8 +293,8 @@ const Data = [
     highlights: 'MERN',
     image: './IMG/',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov',
   },
   {
     id: 28,
@@ -304,8 +304,8 @@ const Data = [
     highlights: 'MERN',
     image: './IMG/',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov',
   },
   {
     id: 29,
@@ -315,8 +315,8 @@ const Data = [
     highlights: 'MERN',
     image: './IMG/',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov',
   },
   {
     id: 30,
@@ -326,8 +326,8 @@ const Data = [
     highlights: 'MERN',
     image: './IMG/',
     details:
-      'Random Dice game lets two people to play. Player rolls the dice until gets to 20 points. If player hit number 1 looses all the accumelated points. Player has option of holding current points and pass the turn other player.',
-    link: 'https://random-dice-number-js.netlify.app/',
+      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
+    link: 'https://github.com/mralimov',
   },
 ];
 
