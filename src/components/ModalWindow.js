@@ -55,8 +55,8 @@ const ModalWindow = ({ dataModal, closeModal }) => {
                       alt=''
                     />
                   </div>
-                  <i className='fas fa-chevron-left' id='prev'></i>
-                  <i className='fas fa-chevron-right' id='next'></i>
+                  {/* <i className='fas fa-chevron-left' id='prev'></i>
+                  <i className='fas fa-chevron-right' id='next'></i> */}
                 </div>
               </div>
               <div className='info-box'>
