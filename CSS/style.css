@@ -613,11 +613,10 @@ a {
   position: relative;
   transform: scale(1.1); }
 
-.modal-wrap .visible {
-  pointer-events: initial; }
-
 .modal-wrap {
-  height: 100vh;
+  height: 90vh;
+  top: 0%;
+  pointer-events: initial;
   position: fixed;
   width: 100vw;
   z-index: 100; }
@@ -681,12 +680,12 @@ a {
   height: 25rem;
   justify-content: center; }
 
-.mdi-chevron-left {
+.fa-chevron-left {
   left: 0; }
 
-.mdi-chevron-left,
-.mdi-chevron-right {
-  background: rgba(0, 0, 0, 0.3);
+.fa-chevron-left,
+.fa-chevron-right {
+  background: rgba(0, 0, 0, 0.5);
   bottom: 0;
   color: #fff;
   cursor: pointer;
@@ -695,7 +694,7 @@ a {
   padding: 1rem 1.5rem;
   position: absolute; }
 
-.mdi {
+.fas {
   display: inline-block;
   font: normal normal normal 24px/1 "Material Design Icons";
   font-size: inherit;
@@ -704,28 +703,33 @@ a {
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0); }
 
-.mdi-chevron-right {
+/* // .mdi-chevron-left:before {
+//     content: "\F141";
+// } */
+.fa-chevron-right {
   right: 0; }
 
 .modal-wrap .info-box {
+  font-family: "Raleway-bold";
   border-top: 3px solid #1b242f;
   box-sizing: border-box;
   color: #444;
-  padding: 1.5rem 1rem 8.5rem 1rem; }
+  padding: 3.5rem 6rem 9rem 2.5rem; }
 
 .modal-wrap .modal_title {
   font-family: "Raleway-bold";
-  font-size: 16pt;
-  line-height: 20pt; }
+  font-size: 2.9rem;
+  font-weight: 700;
+  line-height: 3rem; }
 
 .modal-wrap .modal_tag {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   color: #c0c0c0;
   display: block;
   font-family: "Raleway-bold";
-  font-size: 8pt;
+  font-size: 1.5rem;
   font-weight: 300;
-  padding-bottom: 15px; }
+  padding-bottom: 1.5rem; }
 
 .modal-wrap .modal_detail {
   font-size: 9pt;
@@ -734,25 +738,29 @@ a {
 
 a {
   color: inherit;
-  text-decoration: none; 
-  font-weight: 550;
-  letter-spacing: 1px;
-}
+  text-decoration: none; }
 
+/* // a:-webkit-any-link {
+//     color: -webkit-link;
+//     cursor: pointer;
+//     text-decoration: underline;
+// } */
 .modal-wrap .button {
   background: #e31b6d;
   border: 0;
-  bottom: 20px;
+  width: 15rem;
   color: #fff;
   cursor: pointer;
   font-size: 10pt;
   font-weight: 600;
   left: 1rem;
   padding: 1.1rem 3rem;
-  pointer-events: none;
+  pointer-events: initial;
   position: absolute;
   transition: all 0.5s;
-  visibility: hidden; }
+  display: flex;
+  justify-content: space-between;
+  /* visibility: hidden; */ }
 
 .button {
   border: 2px solid #fff;
@@ -768,10 +776,10 @@ a {
   left: -10px;
   position: relative; }
 
-.button .mdi {
+.button .fas {
   vertical-align: middle; }
 
-.mdi {
+.fas {
   display: inline-block;
   font: normal normal normal 24px/1 "Material Design Icons";
   font-size: inherit;

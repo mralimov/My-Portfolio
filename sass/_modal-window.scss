@@ -1,9 +1,6 @@
-.modal-wrap .visible {
-    pointer-events: initial;
-}
-
 .modal-wrap {
-    height: 100vh;
+    height: 90vh;
+    pointer-events: none;
     position: fixed;
     width: 100vw;
     z-index: 100;
@@ -77,13 +74,13 @@
     justify-content: center;
 }
 
-.mdi-chevron-left {
+.left {
     left: 0;
 }
 
-.mdi-chevron-left,
-.mdi-chevron-right {
-    background: rgba(0, 0, 0, 0.3);
+.left,
+.right {
+    background: rgba(0, 0, 0, 0.5);
     bottom: 0;
     color: #fff;
     cursor: pointer;
@@ -93,7 +90,7 @@
     position: absolute;
 }
 
-.mdi {
+.fas {
     display: inline-block;
     font: normal normal normal 24px/1 "Material Design Icons";
     font-size: inherit;
@@ -103,11 +100,11 @@
     transform: translate(0, 0);
 }
 
-// .mdi-chevron-left:before {
+/* // .mdi-chevron-left:before {
 //     content: "\F141";
-// }
+// } */
 
-.mdi-chevron-right {
+.right {
     right: 0;
 }
 
@@ -143,11 +140,11 @@ a {
     text-decoration: none;
 }
 
-// a:-webkit-any-link {
+/* // a:-webkit-any-link {
 //     color: -webkit-link;
 //     cursor: pointer;
 //     text-decoration: underline;
-// }
+// } */
 
 .modal-wrap .button {
     background: #e31b6d;
@@ -162,7 +159,7 @@ a {
     pointer-events: none;
     position: absolute;
     transition: all 0.5s;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .button {
@@ -181,11 +178,11 @@ a {
     position: relative;
 }
 
-.button .mdi {
+.button .fas {
     vertical-align: middle;
 }
 
-.mdi {
+.fas {
     display: inline-block;
     font: normal normal normal 24px/1 "Material Design Icons";
     font-size: inherit;
