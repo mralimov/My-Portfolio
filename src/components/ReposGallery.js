@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import ModalWindow from './ModalWindow';
 // import Data from './data';
 const ReposGallery = ({ item, filterModal, modalOpen }) => {
   const addModal = (e) => {
