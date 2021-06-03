@@ -32,7 +32,7 @@ const ReposComponent = () => {
       {isOpen && (
         <ModalWindow
           dataModal={modalData}
-          modalClose={confirmModal}
+          closeModal={confirmModal}
           key='modal-key'
         />
       )}
