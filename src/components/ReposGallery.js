@@ -1,10 +1,9 @@
-import React from 'react';
-import ModalWindow from './ModalWindow';
+import React, { Fragment } from 'react';
 // import Data from './data';
-const ReposGallery = ({ item, filterModal }) => {
+const ReposGallery = ({ item, filterModal, modalOpen }) => {
   const addModal = (e) => {
     const eventClass = e.target.className.slice(-2).trim();
-
+    modalOpen(true);
     console.log(eventClass);
     // console.log(eventClass.length);
     // console.log(typeof eventClass);
@@ -14,12 +13,11 @@ const ReposGallery = ({ item, filterModal }) => {
     <div className='projects-box'>
       {item.map((el, i) => {
         while (i < 6) {
-          const { id, language, title, image, link, highlights } = el;
+          const { id, title, image, highlights } = el;
           return (
-            <>
-              {/* <ModalWindow /> */}
+            <Fragment>
               <div className='filter' key={id}>
-                <div className='card-img'>
+                <div className='card-img' key={i}>
                   <img className='project-img' src={image} alt='' />
                 </div>
                 <div className='img-text'>
@@ -27,14 +25,10 @@ const ReposGallery = ({ item, filterModal }) => {
                   <span className='highlight'>{highlights}</span>
                 </div>
                 <button className={`btn-learn-more ${id}`} onClick={addModal}>
-                  <a href={link} target='_blank'>
-                    LEARN MORE
-                  </a>
+                  LEARN MORE
                 </button>
-                <ModalWindow />
-                {/* <a href={link}>LEARN MORE</a> */}
               </div>
-            </>
+            </Fragment>
           );
         }
       })}

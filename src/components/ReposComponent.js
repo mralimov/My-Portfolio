@@ -1,19 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import Data from './data';
 import ReposGallery from './ReposGallery';
 import ReposMenu from './ReposMenu';
+import ModalWindow from './ModalWindow';
 
-const allDataValues = [...new Set(Data.map((curEl) => curEl.language))];
-
-// import '../../CSS/component-styling/projectsMenu.css';
 const ReposComponent = () => {
   const [items, setItems] = useState(Data);
-  const [allRepos, setallRepos] = useState(allDataValues);
-  const [modalData, setModalData] = useState('');
 
-  const filterModal = (e) => {
+  const [modalData, setModalData] = useState('');
+  const [isOpen, setIsOpen] = useState(false);
+  const filterModal = (repo) => {
     const updateModal = Data.filter((element) => {
-      return element.id === e;
+      return element.id === repo;
     });
     setModalData(updateModal);
   };
@@ -25,15 +23,27 @@ const ReposComponent = () => {
     setItems(updateItems);
   };
 
+  const confirmModal = (event) => {
+    setIsOpen(event);
+  };
+
   return (
-    <>
+    <Fragment>
+      {isOpen && (
+        <ModalWindow
+          dataModal={modalData}
+          closeModal={confirmModal}
+          key='modal-key'
+        />
+      )}
       <ReposMenu filterItem={filterItem} />
       <ReposGallery
+        key='unique-key'
         item={items}
         filterModal={filterModal}
-        modalData={modalData}
+        modalOpen={confirmModal}
       />
-    </>
+    </Fragment>
   );
 };
 
