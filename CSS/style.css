@@ -613,11 +613,9 @@ a {
   position: relative;
   transform: scale(1.1); }
 
-.modal-wrap .visible {
-  pointer-events: initial; }
-
 .modal-wrap {
-  height: 100vh;
+  height: 90vh;
+  pointer-events: none;
   position: fixed;
   width: 100vw;
   z-index: 100; }
@@ -681,12 +679,12 @@ a {
   height: 25rem;
   justify-content: center; }
 
-.mdi-chevron-left {
+.left {
   left: 0; }
 
-.mdi-chevron-left,
-.mdi-chevron-right {
-  background: rgba(0, 0, 0, 0.3);
+.left,
+.right {
+  background: rgba(0, 0, 0, 0.5);
   bottom: 0;
   color: #fff;
   cursor: pointer;
@@ -695,7 +693,7 @@ a {
   padding: 1rem 1.5rem;
   position: absolute; }
 
-.mdi {
+.fas {
   display: inline-block;
   font: normal normal normal 24px/1 "Material Design Icons";
   font-size: inherit;
@@ -704,7 +702,10 @@ a {
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0); }
 
-.mdi-chevron-right {
+/* // .mdi-chevron-left:before {
+//     content: "\F141";
+// } */
+.right {
   right: 0; }
 
 .modal-wrap .info-box {
@@ -734,11 +735,13 @@ a {
 
 a {
   color: inherit;
-  text-decoration: none; 
-  font-weight: 550;
-  letter-spacing: 1px;
-}
+  text-decoration: none; }
 
+/* // a:-webkit-any-link {
+//     color: -webkit-link;
+//     cursor: pointer;
+//     text-decoration: underline;
+// } */
 .modal-wrap .button {
   background: #e31b6d;
   border: 0;
@@ -752,7 +755,7 @@ a {
   pointer-events: none;
   position: absolute;
   transition: all 0.5s;
-  visibility: hidden; }
+  /* visibility: hidden; */ }
 
 .button {
   border: 2px solid #fff;
@@ -768,10 +771,10 @@ a {
   left: -10px;
   position: relative; }
 
-.button .mdi {
+.button .fas {
   vertical-align: middle; }
 
-.mdi {
+.fas {
   display: inline-block;
   font: normal normal normal 24px/1 "Material Design Icons";
   font-size: inherit;
