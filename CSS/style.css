@@ -734,10 +734,7 @@ a {
 
 a {
   color: inherit;
-  text-decoration: none; 
-  font-weight: 550;
-  letter-spacing: 1px;
-}
+  text-decoration: none; }
 
 .modal-wrap .button {
   background: #e31b6d;
