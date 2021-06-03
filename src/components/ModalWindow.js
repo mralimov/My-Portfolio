@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './ModalWindow.css';
+import { FaChevronRight, FaChevronLeft, FaTimes } from 'react-icons/fa';
+
 const ModalWindow = (props) => {
   return (
     <div className='modal-wrap flex visible'>
