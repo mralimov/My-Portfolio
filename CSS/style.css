@@ -615,8 +615,7 @@ a {
 
 .modal-wrap {
   height: 90vh;
-  top: 0%;
-  pointer-events: initial;
+  pointer-events: none;
   position: fixed;
   width: 100vw;
   z-index: 100; }
@@ -642,8 +641,7 @@ a {
 
 .modal-wrap.visible .modal {
   opacity: 1;
-  transform: scale(1); 
-}
+  transform: scale(1); }
 
 .modal-wrap .modal {
   align-items: flex-start;
@@ -656,9 +654,7 @@ a {
   color: #333;
   position: relative;
   text-align: left;
-  transition: all 0.3s; 
-  height: 71.5rem;
-}
+  transition: all 0.3s; }
 
 .carousel-wrap {
   height: 25rem;
@@ -673,7 +669,7 @@ a {
 #carousel {
   position: relative;
   top: 0;
-  width: 1000rem; }
+  width: 10000px; }
 
 .slide {
   cursor: pointer;
@@ -683,16 +679,16 @@ a {
   height: 25rem;
   justify-content: center; }
 
-.fa-chevron-left {
+.left {
   left: 0; }
 
-.fa-chevron-left,
-.fa-chevron-right {
+.left,
+.right {
   background: rgba(0, 0, 0, 0.5);
   bottom: 0;
   color: #fff;
   cursor: pointer;
-  font-size: 1.05rem !important;
+  font-size: 14pt !important;
   font-weight: bold;
   padding: 1rem 1.5rem;
   position: absolute; }
@@ -709,34 +705,32 @@ a {
 /* // .mdi-chevron-left:before {
 //     content: "\F141";
 // } */
-.fa-chevron-right {
+.right {
   right: 0; }
 
 .modal-wrap .info-box {
-  font-family: "Raleway-bold";
   border-top: 3px solid #1b242f;
   box-sizing: border-box;
   color: #444;
-  padding: 3.5rem 6rem 9rem 2.5rem; }
+  padding: 1.5rem 1rem 8.5rem 1rem; }
 
 .modal-wrap .modal_title {
   font-family: "Raleway-bold";
-  font-size: 2.9rem;
-  font-weight: 700;
-  line-height: 3rem; }
+  font-size: 16pt;
+  line-height: 20pt; }
 
 .modal-wrap .modal_tag {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   color: #c0c0c0;
   display: block;
   font-family: "Raleway-bold";
-  font-size: 1.5rem;
+  font-size: 8pt;
   font-weight: 300;
-  padding-bottom: 1.5rem; }
+  padding-bottom: 15px; }
 
 .modal-wrap .modal_detail {
-  font-size: 1.6rem;
-  line-height: 2rem;
+  font-size: 9pt;
+  line-height: 14pt;
   margin-top: 1.3rem; }
 
 a {
@@ -750,20 +744,17 @@ a {
 // } */
 .modal-wrap .button {
   background: #e31b6d;
-  bottom: -7.5rem;
   border: 0;
-  width: 15rem;
+  bottom: 20px;
   color: #fff;
   cursor: pointer;
-  font-size: 1.4rem;
+  font-size: 10pt;
   font-weight: 600;
   left: 1rem;
   padding: 1.1rem 3rem;
-  pointer-events: initial;
+  pointer-events: none;
   position: absolute;
-  transition: all 0.2s;
-  display: flex;
-  justify-content: space-between;
+  transition: all 0.5s;
   /* visibility: hidden; */ }
 
 .button {
@@ -771,16 +762,13 @@ a {
   box-sizing: inherit;
   cursor: pointer;
   display: inline-block;
-  font-size: 1.6rem;
-  padding: 1rem 2rem;
-  transition: all 0.2s; }
+  font-size: 13pt;
+  padding: 10px 20px;
+  transition: all 0.5s; }
 
-  .button:hover {
-    transform: scale(1.1);
-}
 .modal-wrap .mdi-open-in-new {
-  font-size: 1.5rem;
-  left: -1rem;
+  font-size: 11pt;
+  left: -10px;
   position: relative; }
 
 .button .fas {
@@ -788,7 +776,7 @@ a {
 
 .fas {
   display: inline-block;
-  font: normal normal normal 2.4rem/1 "Material Design Icons";
+  font: normal normal normal 24px/1 "Material Design Icons";
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -796,14 +784,13 @@ a {
   transform: translate(0, 0); }
 
 .modal-wrap .close {
-  bottom: 1.5rem;
+  bottom: 25px;
   color: #bbb;
   cursor: pointer;
-  font-size: 2.65rem;
+  font-size: 20pt;
   font-weight: 800;
   position: absolute;
-  right: 3.5rem; 
-}
+  right: 10px; }
 
 .container {
   padding: 0 10rem 0 10rem; }
