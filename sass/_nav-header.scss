@@ -1,34 +1,36 @@
- 
-  nav ul,
-  .main-info-section,
-  .work-category  {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+nav ul,
+.main-info-section,
+.work-category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+header {
+  height: 8rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 2rem 0;
+  flex-direction: row;
+  align-items: center;
+}
+
+.navbar {
+  background-color: #181818;
+
+  @include respond(tab) {
+    padding: 0 5rem 0 5rem;
   }
-  
-  
-  header  {
-    height: 8rem;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    padding: 2rem 0;
-    flex-direction: row;
-    align-items: center;
-      
-  }
-  
-  .navbar {
-    background-color: #181818;
-  }
-  .head-title--name,
-  header h1,
-  header a,
-  .text p,
-  .about h1,
-  .skills h1,
-  .work h1,
-  .contact h1   {
-    color: #707070;
-  }
+}
+
+.head-title--name,
+header h1,
+header a,
+.text p,
+.about h1,
+.skills h1,
+.work h1,
+.contact h1 {
+  color: #707070;
+}
