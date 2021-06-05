@@ -1,3 +1,4 @@
+@import "./mixins";
 @import "./social-media";
 @import "./base";
 @import "./nav-header";
@@ -8,8 +9,27 @@
 @import "./downoad-resume";
 @import "./projects-menu";
 @import "./modal-window";
+
 .container {
     padding: 0 10rem 0 10rem;
+
+    @include respond(tab-land) {
+        padding: 0 8rem 0 8rem;
+    }
+
+    @include respond(tab) {
+        padding: 0 4rem 0 8rem;
+    }
+
+    @include respond(phone) {
+        padding: 0 3rem 0 3rem;
+    }
+}
+
+.navbar {
+    @include respond(tab) {
+        padding: 0;
+    }
 }
 
 .work a {
