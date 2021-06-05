@@ -26,9 +26,9 @@
 }
 
 .fullstack {
-  width: 100%;
+  /* width: 100%; */
   margin-left: 8rem;
-  height: 10rem;
+  /* height: 10rem; */
   background-color: #252627;
   color: #eee;
   overflow: hidden;
@@ -83,6 +83,7 @@
   border: 2px solid #eee;
 }
 
+
 @media (max-width: 600px) {
   html { font-size: 12px; }
   :root {
@@ -92,3 +93,4 @@
   }
   .fullstack:before, .fullstack:after { width: 5rem; }
 }
+
