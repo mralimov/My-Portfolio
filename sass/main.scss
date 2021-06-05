@@ -13,16 +13,19 @@
 .container {
     padding: 0 10rem 0 10rem;
 
-    @include respond(tab-land) {
+    @include respond(small-laptop) {
         padding: 0 8rem 0 8rem;
     }
-
     @include respond(tab) {
         padding: 0 4rem 0 8rem;
     }
 
+    @include respond(tab-port) {
+        padding: 0 4rem 0 8rem;
+    }
+
     @include respond(phone) {
-        padding: 0 3rem 0 3rem;
+        padding: 0 3rem 0 1rem;
     }
 }
 
