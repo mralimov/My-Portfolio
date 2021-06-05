@@ -3,7 +3,7 @@
   height: 120rem;
 }
 .projects {
-  width: 90%;
+  width: 95%;
   // height: 160rem;
   /* background-color: #252627; */
   display: flex;
@@ -51,20 +51,45 @@
 }
 
 .projects-box {
-  width: 120rem;
+  width: 95%;
   height: 70rem;
-  margin-top: 2rem;
+  margin: 5% 5% 5% 0;
   display: grid;
   grid-template-rows: repeat(2, 30rem);
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-  padding: 5rem;
+
+  @include respond(tab-land) {
+    display: grid;
+    grid-template-rows: repeat(3, 30rem);
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    // grid-gap: 2rem;
+  }
+
+  @include respond(phone) {
+    width: 80%;
+    grid-gap: 0;
+    display: grid;
+    grid-template-rows: repeat(3, 30rem);
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
 }
 
 .filter {
   width: 40rem;
   height: 30rem;
   position: relative;
+  @include respond(small-laptop) {
+    width: 35rem;
+    height: 25rem;
+  }
+  @include respond(tab-land) {
+    // padding: 1rem;
+    width: 40rem;
+    height: 30rem;
+  }
 }
 .card-img {
   width: 100%;
