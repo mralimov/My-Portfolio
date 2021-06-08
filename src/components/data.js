@@ -9,6 +9,11 @@ const Data = [
     details:
       'Donnie-Bank  is a app that lets customers to login to thier bank account and see the all the transactions, request a loan or transfer money to frined who uses same bank.',
     link: 'https://donnie-bank-js.netlify.app/',
+    img: [
+      '../IMG/JS-BANK400x300.jpg',
+      '../IMG/ProductivityApp.JPG',
+      '../IMG/My-Portfolio-React.JPG',
+    ],
   },
   {
     id: 2,
