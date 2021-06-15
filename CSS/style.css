@@ -434,6 +434,27 @@ a.about-me-info p:last-child {
 .fab:hover {
   color: #ed5565;
   transform: scale(1.8); }
+  @media (max-width: 62.5em) {
+    .fas:hover,
+    .fab:hover {
+      transform: scale(1.4); } }
+  @media (max-width: 56.25em) {
+    .fas:hover,
+    .fab:hover {
+      transform: scale(1.2); } }
+  @media (max-width: 40.625em) {
+    .fas:hover,
+    .fab:hover {
+      transform: scale(1); } }
+
+.fullstack {
+  /* width: 100%; */
+  margin-left: 8rem;
+  height: 10rem;
+  background-color: #252627;
+  color: #eee;
+  overflow: hidden;
+  position: relative; }
 
 .project-head {
   font-size: 2.6rem;

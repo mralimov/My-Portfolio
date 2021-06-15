@@ -24,16 +24,16 @@
   --fullstack-element-width: calc(var(--fullstack-width) / var(--fullstack-elements-displayed));
   --fullstack-animation-duration: calc(var(--fullstack-elements) * 3s);
 }
-
+/* 
 .fullstack {
-  /* width: 100%; */
+  width: 100%;
   margin-left: 8rem;
-  /* height: 10rem; */
+  height: 10rem;
   background-color: #252627;
   color: #eee;
   overflow: hidden;
   position: relative;
-}
+} */
 
 
 .fullstack:before, .fullstack:after {

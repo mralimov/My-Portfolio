@@ -108,6 +108,29 @@
 .fab:hover {
   color: #ed5565;
   transform: scale(1.8);
+
+  @include respond(tab) {
+    transform: scale(1.4)
+  }
+  @include respond(tab-port) {
+    transform: scale(1.2)
+  }
+  @include respond(phone) {
+    transform: scale(1)
+  }
+}
+
+.fullstack {
+
+  /* width: 100%; */
+  margin-left: 8rem;
+  height: 10rem;
+  background-color: #252627;
+  color: #eee;
+  overflow: hidden;
+  position: relative;
+
+
 }
 
 .project-head {
