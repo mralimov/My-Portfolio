@@ -161,13 +161,13 @@ const Data = [
   {
     id: 15,
     language: 'REACT',
-    title: 'GOOGLE BOOK Search',
+    title: 'ORDER FOOD React/Hooks',
     tag: 'Searching books in Google',
     highlights: 'REACT',
-    image: './IMG/Google-Book-Search-React.JPG',
+    image: './IMG/Order Food React-hooks.JPG',
     details:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
-    link: 'https://github.com/mralimov/Google-Books-Search',
+    link: 'https://order-food-app-react.netlify.app/',
   },
   {
     id: 16,
@@ -194,13 +194,13 @@ const Data = [
   {
     id: 18,
     language: 'REACT',
-    title: 'REACT APP',
-    tag: 'DICE GAME FOR TWO PEOPLE',
+    title: 'GOOGLE BOOK Search',
+    tag: 'Searching books in Google',
     highlights: 'REACT',
-    image: './IMG/',
+    image: './IMG/Google-Book-Search-React.JPG',
     details:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
-    link: 'https://github.com/mralimov/',
+    link: 'https://github.com/mralimov/Google-Books-Search',
   },
   {
     id: 19,
