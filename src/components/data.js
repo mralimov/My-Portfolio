@@ -153,10 +153,10 @@ const Data = [
     title: 'REACT PORTFOLIO',
     tag: 'My React Portfolio',
     highlights: 'REACT',
-    image: './IMG/My-Portfolio-React.JPG',
+    image: './IMG/My-react-expenses.JPG',
     details:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
-    link: 'https://github.com/mralimov/My-React-Portfolio',
+    link: 'https://github.com/mralimov/My-React-Expenses',
   },
   {
     id: 15,
@@ -183,13 +183,13 @@ const Data = [
   {
     id: 17,
     language: 'REACT',
-    title: 'MY EXPENSES Component',
+    title: 'REACT PORTFOLIO',
     tag: 'DICE GAME FOR TWO PEOPLE',
     highlights: 'REACT',
-    image: './IMG/My-react-expenses.JPG',
+    image: './IMG/My-Portfolio-React.JPG',
     details:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
-    link: 'https://github.com/mralimov/My-React-Expenses',
+    link: 'https://github.com/mralimov/My-React-Portfolio',
   },
   {
     id: 18,
