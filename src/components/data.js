@@ -194,13 +194,13 @@ const Data = [
   {
     id: 18,
     language: 'REACT',
-    title: 'GOOGLE BOOK Search',
-    tag: 'Searching books in Google',
+    title: 'Redux Add to Cart',
+    tag: 'Redux managing cart items state ',
     highlights: 'REACT',
-    image: './IMG/Google-Book-Search-React.JPG',
+    image: './IMG/Redux-add-to-cart.JPG',
     details:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!',
-    link: 'https://github.com/mralimov/Google-Books-Search',
+    link: 'https://redux-add-to-cart.netlify.app/',
   },
   {
     id: 19,
